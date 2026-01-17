@@ -4,6 +4,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 
 import 'package:in_app_review/in_app_review.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'package:appinio_swiper/appinio_swiper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -409,23 +410,105 @@ class _HomePageState extends State<HomePage> {
                       textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                   ),
+                  const SizedBox(height: 20),
+
+                  // Sister App Link
+                  GestureDetector(
+                    onTap: () => _showSisterAppDialog(context),
+                    child: Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.1),
+                            blurRadius: 10,
+                            offset: const Offset(0, 4),
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: [
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              'assets/sister_app_icon.jpg',
+                              width: 60,
+                              height: 60,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                const Text(
+                                  "４択問題アプリリリース！",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: Colors.grey,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                const SizedBox(height: 4),
+                                const Text(
+                                  "空き時間にサクサク解ける\n姉妹アプリはこちら",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black87,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Icon(Icons.open_in_new, color: Colors.grey[400]),
+                        ],
+                      ),
+                    ),
+                  ),
                   const SizedBox(height: 40),
                 ],
               ),
             ),
           ),
-          
-          // Ad Banner
-          const SafeArea(
-            top: false,
-            child: SizedBox(
-              height: 60,
-              child: AdBanner(adKey: 'home', keepAlive: true),
-            ),
+        ],
+      ),
+    );
+  }
+
+  void _showSisterAppDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text("姉妹アプリへ移動"),
+        content: const Text("App Storeを開いて姉妹アプリを表示しますか？"),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text("キャンセル"),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              _launchSisterApp();
+            },
+            child: const Text("移動する"),
           ),
         ],
       ),
     );
+  }
+
+  Future<void> _launchSisterApp() async {
+    const url = 'https://apps.apple.com/app/id6757896364';
+    if (await canLaunchUrl(Uri.parse(url))) {
+      await launchUrl(Uri.parse(url));
+    } else {
+      debugPrint("Could not launch $url");
+    }
   }
 }
 
@@ -660,6 +743,12 @@ class _QuizPageState extends State<QuizPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: const SafeArea(
+        child: SizedBox(
+          height: 60,
+          child: AdBanner(adKey: 'quiz', keepAlive: true),
+        ),
+      ),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
