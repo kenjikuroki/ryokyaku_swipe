@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'purchase_manager.dart';
 
 class PreloadedAd {
   final BannerAd ad;
@@ -15,7 +16,14 @@ class PreloadedAd {
 
 class AdManager {
   static final AdManager instance = AdManager._internal();
-  AdManager._internal();
+  AdManager._internal() {
+    PurchaseManager.instance.isPremium.addListener(() {
+      if (PurchaseManager.instance.isPremium.value) {
+        debugPrint('AdManager: Premium detected. Disposing all ads.');
+        disposeAll();
+      }
+    });
+  }
 
   final Map<String, PreloadedAd> _ads = {};
 
@@ -28,6 +36,8 @@ class AdManager {
   // final String _testAdUnitId = 'ca-app-pub-3940256099942544/6300978111';
 
   void preloadAd(String key) {
+    if (PurchaseManager.instance.isPremium.value) return;
+
     if (_ads.containsKey(key)) {
       // Already preloading or loaded
       return;
@@ -82,6 +92,8 @@ class AdManager {
   void preloadInterstitial() {
     // If already loaded or loading, skip? 
     // Simplified: just try to load if null.
+    if (PurchaseManager.instance.isPremium.value) return;
+
     if (_interstitialAd != null) return;
 
     InterstitialAd.load(
