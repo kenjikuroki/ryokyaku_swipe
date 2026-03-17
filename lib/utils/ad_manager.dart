@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'purchase_manager.dart';
@@ -27,13 +28,19 @@ class AdManager {
 
   final Map<String, PreloadedAd> _ads = {};
 
-  final String _adUnitId = 'ca-app-pub-3331079517737737/5971312639';
-  /*
-  final String _adUnitId = Platform.isAndroid
-      ? 'ca-app-pub-3940256099942544/6300978111' // Android Test ID
-      : 'ca-app-pub-3940256099942544/2934735716'; // iOS Test ID
-  */
-  // final String _testAdUnitId = 'ca-app-pub-3940256099942544/6300978111';
+  /// 本番移行時（本番用の広告を表示する際）はここを `false` に変更してください。
+  static const bool useTestAds = true;
+
+  String get bannerAdUnitId {
+    if (useTestAds) {
+      return Platform.isAndroid
+          ? 'ca-app-pub-3940256099942544/6300978111' // Android Test ID
+          : 'ca-app-pub-3940256099942544/2934735716'; // iOS Test ID
+    }
+    return Platform.isAndroid
+        ? 'ca-app-pub-3331079517737737/3315667975'
+        : 'ca-app-pub-3331079517737737/5971312639';
+  }
 
   void preloadAd(String key) {
     if (PurchaseManager.instance.isPremium.value) return;
@@ -46,7 +53,7 @@ class AdManager {
     // Always use the real ID as requested by user, 
     // or switch to test ID if strictly debugging.
     // final unitId = kDebugMode ? _testAdUnitId : _adUnitId;
-    final unitId = _adUnitId;
+    final unitId = bannerAdUnitId;
 
     final ad = BannerAd(
       adUnitId: unitId,
@@ -87,8 +94,16 @@ class AdManager {
   InterstitialAd? _interstitialAd;
   
   // Real ID from user screenshot
-  final String _interstitialAdUnitId = 'ca-app-pub-3331079517737737/6031022389';
-
+  String get interstitialAdUnitId {
+    if (useTestAds) {
+      return Platform.isAndroid
+          ? 'ca-app-pub-3940256099942544/1033173712' // Android Test ID
+          : 'ca-app-pub-3940256099942544/4411468910'; // iOS Test ID
+    }
+    return Platform.isAndroid
+        ? 'ca-app-pub-3331079517737737/5139739747'
+        : 'ca-app-pub-3331079517737737/6031022389';
+  }
   void preloadInterstitial() {
     // If already loaded or loading, skip? 
     // Simplified: just try to load if null.
@@ -97,7 +112,7 @@ class AdManager {
     if (_interstitialAd != null) return;
 
     InterstitialAd.load(
-      adUnitId: _interstitialAdUnitId, 
+      adUnitId: interstitialAdUnitId, 
       request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (ad) {

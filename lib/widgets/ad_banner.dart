@@ -24,8 +24,7 @@ class _AdBannerState extends State<AdBanner> {
   bool _isLoaded = false;
   ValueNotifier<bool>? _loadingNotifier; // To track listener for cleanup
   
-  final String _adUnitId = 'ca-app-pub-3331079517737737/5971312639';
-  
+
   @override
   void initState() {
     super.initState();
@@ -60,7 +59,7 @@ class _AdBannerState extends State<AdBanner> {
 
   void _loadAd() {
     _bannerAd = BannerAd(
-      adUnitId: _adUnitId, 
+      adUnitId: AdManager.instance.bannerAdUnitId, 
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(

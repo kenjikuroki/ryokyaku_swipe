@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../utils/purchase_manager.dart';
 
+
 class SpecialOfferDialog extends StatelessWidget {
   const SpecialOfferDialog({super.key});
 

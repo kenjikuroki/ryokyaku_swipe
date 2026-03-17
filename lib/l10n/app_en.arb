@@ -1,0 +1,69 @@
+{
+  "@@locale": "en",
+  "appTitle": "Transport Manager (Pax)",
+  "subTitle": "Pass in your spare time! Q&A",
+  "part1": "Road Transport Law",
+  "part2": "Road Transport Vehicle Law",
+  "part3": "Road Traffic Act",
+  "part4": "Labor Standards Act",
+  "part5": "Practical Knowledge & Ability",
+  "reviewWeakness": "Review Weakness ({count} questions)",
+  "@reviewWeakness": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sisterAppTitle": "4-Choice Quiz App Released!",
+  "sisterAppSubTitle": "Solve quickly in your spare time\nSister app is here",
+  "premiumUpgrade": "Premium Upgrade",
+  "premiumUpgradeDesc": "Completely hide ads and unlock sequential mode!",
+  "buy": "Buy",
+  "restore": "Restore Purchase",
+  "shuffleMode": "Shuffle",
+  "sequentialMode": "In Order",
+  "lockedModeDesc": "This mode is premium only",
+  "categorySelect": "Select Category",
+  "allCategories": "All Categories",
+  "questionsCount": "{count} questions",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "feature1Title": "Sequential Mode Unlocked",
+  "feature1Desc": "Solve all questions in order from the first one.",
+  "feature2Title": "Completely Hide Ads",
+  "feature2Desc": "Hides all ads (banners, videos, etc.) in the app.",
+  "cancel": "Cancel",
+  "startQuiz": "Start",
+  "undo": "Undo",
+  "questionIndex": "Q. {index}",
+  "@questionIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "correct": "Correct! ⭕",
+  "incorrect": "Incorrect... ❌",
+  "passed": "Passing range! Great!",
+  "failed": "Almost there! Let's review",
+  "perfect": "PERFECT! 🎉",
+  "overcomeWeakness": "Overcame {count} weaknesses!",
+  "@overcomeWeakness": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "checkMistakes": "Check Mistakes",
+  "imageQuestion": "Image Question",
+  "retry": "Retry",
+  "backToHome": "Back to Home"
+}

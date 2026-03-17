@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import '../utils/purchase_manager.dart';
+import 'package:ryokyaku_swipe/l10n/app_localizations.dart';
 
 class PremiumUnlockCard extends StatelessWidget {
   const PremiumUnlockCard({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Column(
       children: [
         Container(
@@ -44,7 +46,7 @@ class PremiumUnlockCard extends StatelessWidget {
                         shape: BoxShape.circle,
                       ),
                       child: const Icon(
-                        Icons.workspace_premium, // Or stars/verified centered
+                        Icons.star, // Or stars/verified centered
                         color: Colors.white,
                         size: 30,
                       ),
@@ -52,27 +54,29 @@ class PremiumUnlockCard extends StatelessWidget {
                     const SizedBox(width: 16),
                     
                     // Center Text
-                    const Expanded(
+                    Expanded(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "プレミアムプランに\nアップグレード",
-                            style: TextStyle(
+                            l10n.premiumUpgrade,
+                            style: const TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
                               color: Colors.white,
                               height: 1.2,
                             ),
                           ),
-                          SizedBox(height: 4),
+                          const SizedBox(height: 4),
                           Text(
-                            "広告を非表示にして集中！",
-                            style: TextStyle(
+                            l10n.premiumUpgradeDesc,
+                            style: const TextStyle(
                               fontSize: 12,
                               color: Colors.white,
                             ),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ],
                       ),
@@ -85,9 +89,9 @@ class PremiumUnlockCard extends StatelessWidget {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      child: const Text(
-                        "購入",
-                        style: TextStyle(
+                      child: Text(
+                        l10n.buy,
+                        style: const TextStyle(
                           color: Colors.orange,
                           fontWeight: FontWeight.bold,
                         ),
@@ -109,9 +113,9 @@ class PremiumUnlockCard extends StatelessWidget {
             foregroundColor: Colors.grey,
             visualDensity: VisualDensity.compact,
           ),
-          child: const Text(
-            "購入を復元する",
-            style: TextStyle(
+          child: Text(
+            l10n.restore,
+            style: const TextStyle(
               fontSize: 12, 
             ),
           ),

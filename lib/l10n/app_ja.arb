@@ -1,0 +1,69 @@
+{
+  "@@locale": "ja",
+  "appTitle": "運行管理者 旅客",
+  "subTitle": "スキマ時間でサクサク合格！一問一答",
+  "part1": "道路運送法",
+  "part2": "道路運送車両法",
+  "part3": "道路交通法",
+  "part4": "労働基準法 & 改善基準告示",
+  "part5": "実務上の知識及び能力",
+  "reviewWeakness": "苦手を復習する ({count}問)",
+  "@reviewWeakness": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sisterAppTitle": "４択問題アプリリリース！",
+  "sisterAppSubTitle": "空き時間にサクサク解ける\n姉妹アプリはこちら",
+  "premiumUpgrade": "プレミアムアップグレード",
+  "premiumUpgradeDesc": "広告を完全に非表示にし、全問順番通りモードを解放！",
+  "buy": "購入",
+  "restore": "購入を復元する",
+  "shuffleMode": "シャッフル",
+  "sequentialMode": "順番通り",
+  "lockedModeDesc": "このモードはプレミアム限定です",
+  "categorySelect": "カテゴリーを選択",
+  "allCategories": "全カテゴリー",
+  "questionsCount": "{count}問",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "feature1Title": "「連続」モードの解放",
+  "feature1Desc": "1問目から順番にすべての問題を解くことができます。",
+  "feature2Title": "広告を完全に非表示",
+  "feature2Desc": "アプリ内のあらゆる広告（バナー、動画など）を非表示にします。",
+  "cancel": "キャンセル",
+  "startQuiz": "開始",
+  "undo": "元に戻す",
+  "questionIndex": "第{index}問",
+  "@questionIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "correct": "正解！ ⭕",
+  "incorrect": "不正解... ❌",
+  "passed": "合格圏内！素晴らしい！",
+  "failed": "あと少し！復習しよう",
+  "perfect": "PERFECT! 🎉",
+  "overcomeWeakness": "{count}個の苦手を克服しました！",
+  "@overcomeWeakness": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "checkMistakes": "ミスを確認",
+  "imageQuestion": "画像問題",
+  "retry": "リトライ",
+  "backToHome": "ホームに戻る"
+}
