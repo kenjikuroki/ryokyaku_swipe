@@ -1767,7 +1767,8 @@ class _QuizPageState extends State<QuizPage> {
   Widget _buildCard(Quiz quiz) {
     bool hasImage = quiz.imagePath != null;
 
-    return Container(
+    return SizedBox.expand(
+      child: Container(
       margin: const EdgeInsets.all(20),
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
