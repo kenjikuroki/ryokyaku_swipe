@@ -35,11 +35,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get sisterAppTitle => '4-Choice Quiz App Released!';
+  String get sisterAppTitle => '公式例題ベースの問題集アプリが登場！';
 
   @override
-  String get sisterAppSubTitle =>
-      'Solve quickly in your spare time\nSister app is here';
+  String get sisterAppSubTitle => '「サクサク過去問」';
 
   @override
   String get premiumUpgrade => 'Premium Upgrade';
@@ -132,4 +131,48 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get backToHome => 'Back to Home';
+
+  @override
+  String get sisterAppDialogTitle => 'Also check out our related app!';
+
+  @override
+  String get sisterAppDialogBody =>
+      'A study app for another license exam is also available.';
+
+  @override
+  String get open => 'Open';
+
+  @override
+  String get back => 'Back';
+
+  @override
+  String get noData => 'No quiz data available';
+
+  @override
+  String get selectCategory => 'Select Category';
+
+  @override
+  String get purchase => 'Purchase';
+
+  @override
+  String get restorePurchase => 'Restore Purchase';
+
+  @override
+  String get featureSequentialTitle => 'Unlock Sequential Mode';
+
+  @override
+  String get featureSequentialDesc =>
+      'You can solve all questions in order from the first one.';
+
+  @override
+  String get featureNoAdsTitle => 'Completely Hide Ads';
+
+  @override
+  String get featureNoAdsDesc => 'Hides all ads in the app.';
+
+  @override
+  String get premiumCardTitle => 'Upgrade to\nPremium Plan';
+
+  @override
+  String get premiumCardSubtitle => 'Concentrate without ads!';
 }

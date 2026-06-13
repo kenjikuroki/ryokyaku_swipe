@@ -299,10 +299,308 @@
       "isCorrect": true,
       "explanation": "正解！決算報告などの義務です。",
       "imagePath": null
+    },
+    {
+      "question": "道路運送法上の一般旅客自動車運送事業には、一般乗合、一般貸切、一般乗用、特定旅客の4種類がある。",
+      "isCorrect": true,
+      "explanation": "旅客自動車運送事業は、需要の形態や契約形態に応じて4類型に区分される。",
+      "imagePath": null
+    },
+    {
+      "question": "一般乗用旅客自動車運送事業（タクシー等）は、届出だけで開始できる。",
+      "isCorrect": false,
+      "explanation": "一般乗用旅客自動車運送事業も、原則として国土交通大臣の許可が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "一般貸切旅客自動車運送事業は、一個の契約により乗車定員11人以上の自動車を貸し切って旅客を運送する事業である。",
+      "isCorrect": true,
+      "explanation": "一般貸切旅客自動車運送事業は、契約単位と車両規模で定義される。",
+      "imagePath": null
+    },
+    {
+      "question": "特定旅客自動車運送事業とは、不特定多数の旅客を自由に運送するタクシー事業のことである。",
+      "isCorrect": false,
+      "explanation": "特定旅客自動車運送事業は、特定の者の需要に応じて特定範囲の旅客を運送する事業である。",
+      "imagePath": null
+    },
+    {
+      "question": "一般乗合旅客自動車運送事業を経営するには、事業計画や運行計画等を定めたうえで許可を受ける必要がある。",
+      "isCorrect": true,
+      "explanation": "乗合事業は道路運送法に基づく許可事業である。",
+      "imagePath": null
+    },
+    {
+      "question": "一般乗合旅客自動車運送事業の運賃及び料金は、原則として事後届出だけで自由に設定できる。",
+      "isCorrect": false,
+      "explanation": "一般乗合旅客自動車運送事業の運賃及び料金は、原則として認可が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "営業所の名称変更のような軽微な事業計画変更については、事前認可が必要である。",
+      "isCorrect": false,
+      "explanation": "軽微な事項は、原則として認可ではなく事後届出で足りる。",
+      "imagePath": null
+    },
+    {
+      "question": "事業者が安全管理規程を定めたときは、国土交通大臣に届出を行う必要がある。",
+      "isCorrect": true,
+      "explanation": "安全管理規程は、作成だけでなく届出まで含めて管理される。",
+      "imagePath": null
+    },
+    {
+      "question": "道路運送法の名義貸し禁止規定に違反した場合、事業許可の取消し等の処分対象となり得る。",
+      "isCorrect": true,
+      "explanation": "名義貸しは重大な違反行為であり、厳しい行政処分の対象となる。",
+      "imagePath": null
+    },
+    {
+      "question": "旅客自動車運送事業の許可は、5年ごとに自動更新申請が必要な更新制である。",
+      "isCorrect": false,
+      "explanation": "一般的な旅客自動車運送事業許可は一律の5年更新制ではない。",
+      "imagePath": null
+    },
+    {
+      "question": "旅客自動車運送事業者は、天災その他やむを得ない事由がある場合などを除き、正当な理由なく運送の引受けを拒絶してはならない。",
+      "isCorrect": true,
+      "explanation": "公共交通としての性格上、原則として運送引受義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "泥酔した者や他の旅客に迷惑を及ぼすおそれがある者であっても、運送の申込みは必ず引き受けなければならない。",
+      "isCorrect": false,
+      "explanation": "他の旅客に迷惑を及ぼすおそれがある場合などは、申込みを拒絶できる。",
+      "imagePath": null
+    },
+    {
+      "question": "運賃、料金、運送約款などの掲示は、事業者の任意であり、公衆の見やすい場所に掲げる義務はない。",
+      "isCorrect": false,
+      "explanation": "公衆の見やすい場所への掲示が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "乗務前点呼は、原則として対面で実施する。",
+      "isCorrect": true,
+      "explanation": "点呼は原則対面で行い、やむを得ない場合に限って電話その他の方法が認められる。",
+      "imagePath": null
+    },
+    {
+      "question": "乗務前点呼では、疾病、疲労、睡眠不足その他の安全運転に支障を及ぼすおそれの有無を確認する必要がある。",
+      "isCorrect": true,
+      "explanation": "健康状態の確認は点呼の重要項目である。",
+      "imagePath": null
+    },
+    {
+      "question": "アルコール検知器による確認は、外見上問題がなければ省略できる。",
+      "isCorrect": false,
+      "explanation": "外見や自己申告にかかわらず、所定の確認を省略してはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者から特段の申告がない場合、乗務後点呼は省略して差し支えない。",
+      "isCorrect": false,
+      "explanation": "乗務後点呼も法令上の重要な確認手続であり、勝手に省略できない。",
+      "imagePath": null
+    },
+    {
+      "question": "乗務後点呼では、自動車、道路及び運行の状況等について報告を求める。",
+      "isCorrect": true,
+      "explanation": "乗務後点呼では、運行の結果や異常の有無を把握する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "IT点呼を実施する場合でも、対面点呼と同等の効果を確保するためのカメラやモニター等の機器が必要になる。",
+      "isCorrect": true,
+      "explanation": "遠隔であっても、本人確認や状態確認が適切に行える設備が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理補助者は、点呼総回数の3分の2以上を担当しても差し支えない。",
+      "isCorrect": false,
+      "explanation": "補助者が担当できる点呼の割合には上限がある。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理補助者は、運行管理者の指揮監督を受けずに独自の基準で点呼方法を変更できる。",
+      "isCorrect": false,
+      "explanation": "補助者は運行管理者の指揮監督下で業務を補助する立場である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理者資格者証を持っていなくても、実務経験が長ければ運行管理者に選任できる。",
+      "isCorrect": false,
+      "explanation": "運行管理者に選任されるには、所定の資格者証が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理者の代務者として業務を行わせる場合は、あらかじめ届け出た資格者証保有者であることが必要である。",
+      "isCorrect": true,
+      "explanation": "代務者も安全確保上の重要職務を担うため、資格要件が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理者の業務には、有効な運転免許証の携帯確認も含まれる。",
+      "isCorrect": true,
+      "explanation": "法令順守と安全運行の観点から、免許証確認も重要な業務である。",
+      "imagePath": null
+    },
+    {
+      "question": "異常気象等により輸送の安全確保に支障が生ずるおそれがある場合、運行管理者は運行の中断等の措置を講じる必要がある。",
+      "isCorrect": true,
+      "explanation": "安全に支障が生じる場合は、運行継続より安全確保が優先される。",
+      "imagePath": null
+    },
+    {
+      "question": "車庫の適切な管理や整備管理者との連携は、運行管理者の業務には含まれない。",
+      "isCorrect": false,
+      "explanation": "運行管理者は、車庫管理や整備管理者との連携を通じて安全運行を支える。",
+      "imagePath": null
+    },
+    {
+      "question": "疾病、疲労、睡眠不足などにより安全な運転ができないおそれがある乗務員でも、本人の希望があれば乗務させてよい。",
+      "isCorrect": false,
+      "explanation": "安全運転に支障があるおそれがある場合は、乗務させてはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "新たに雇い入れた運転者には、事故防止等に関する特別な指導を行い、初任診断を受けさせる必要がある。",
+      "isCorrect": true,
+      "explanation": "初任運転者への特別指導と適性診断は、基本的な安全措置である。",
+      "imagePath": null
+    },
+    {
+      "question": "事故惹起運転者は、口頭注意のみで直ちに再乗務させれば足り、特別な指導は不要である。",
+      "isCorrect": false,
+      "explanation": "事故惹起運転者には再乗務前の特別な指導が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "アルコール検知器は、常時有効に保持しなければならない。",
+      "isCorrect": true,
+      "explanation": "検知器は常に正常に使用できる状態に保つ必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バス事業者は、点呼の記録を3年間保存しなければならない。",
+      "isCorrect": true,
+      "explanation": "貸切バス事業では、点呼記録の長期保存が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バス事業者は、運送申込書や引受書の写しを運行終了後すぐ破棄してよい。",
+      "isCorrect": false,
+      "explanation": "貸切バス事業者は、写しを一定期間保存しなければならない。",
+      "imagePath": null
+    },
+    {
+      "question": "運行指示書は、乗務前または乗務後の点呼のどちらか一方で携行させれば足りる。",
+      "isCorrect": false,
+      "explanation": "必要な時期に適切に携行・確認できるよう運用しなければならない。",
+      "imagePath": null
+    },
+    {
+      "question": "運行指示書には、運行の経路、日時、運転者の氏名などを記載する。",
+      "isCorrect": true,
+      "explanation": "運行指示書は、安全な貸切運行に必要な基本情報を明記する文書である。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バスの運賃は、契約当事者が合意していれば下限額を下回っても差し支えない。",
+      "isCorrect": false,
+      "explanation": "下限額を下回る運賃での契約は、合意があっても適法とはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者が一人で運行する貸切バスでは、2日平均で1日当たり10時間まで運転できる。",
+      "isCorrect": false,
+      "explanation": "所定の基準では、2日平均で1日当たり9時間を超えてはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バスでは、一定距離を超える運行で交替運転者の配置が必要となる場合がある。",
+      "isCorrect": true,
+      "explanation": "長距離運行等では、過労運転防止のため交替運転者配置が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "重大な事故が発生した場合の速報は、24時間以内に行う必要がある。",
+      "isCorrect": true,
+      "explanation": "速報は迅速性が重視され、所定時間内の報告が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "死者を生じた事故や5人以上の重傷者を生じた事故は、速報の対象ではない。",
+      "isCorrect": false,
+      "explanation": "これらは代表的な速報対象事故である。",
+      "imagePath": null
+    },
+    {
+      "question": "乗降口の扉の不適切操作により乗客が医師の治療を受けた場合でも、事故報告は不要である。",
+      "isCorrect": false,
+      "explanation": "事業用自動車の運行に起因する負傷事故として報告が必要となる。",
+      "imagePath": null
+    },
+    {
+      "question": "事業者は、毎事業年度経過後100日以内に事業報告書を提出しなければならない。",
+      "isCorrect": true,
+      "explanation": "旅客自動車運送事業者には、所定期間内の事業報告書提出義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "事業報告書は、事業年度の経過後30日以内に提出しなければならない。",
+      "isCorrect": false,
+      "explanation": "提出期限は30日ではなく、別に定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "輸送の安全確保に必要な費用は、法令上の明確な要求がないため予算化しなくてもよい。",
+      "isCorrect": false,
+      "explanation": "安全確保に必要な金額を予算に計上するなどの措置が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "事業者は、運行管理者が業務を行うために必要な権限を与えなければならない。",
+      "isCorrect": true,
+      "explanation": "権限の付与がなければ、運行管理者は実効的に安全管理業務を遂行できない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者本人が「問題ない」と申告した場合、疾病や睡眠不足等の確認は省略できる。",
+      "isCorrect": false,
+      "explanation": "本人申告だけでなく、必要な確認を適切に行う必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "車庫以外の場所で乗務を終了した場合は、対面点呼ができなくても電話点呼を省略してよい。",
+      "isCorrect": false,
+      "explanation": "所定の方法により点呼を実施する必要があり、勝手に省略できない。",
+      "imagePath": null
+    },
+    {
+      "question": "乗務員は、休憩時間中であれば点呼時に酒気が検出されなければ飲酒しても問題ない。",
+      "isCorrect": false,
+      "explanation": "乗務に影響する飲酒は許されず、休憩時間だからといって自由にはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者が乗務中に体調不良を訴えた場合、運行管理者は直ちに運転中止や交替手配等の措置を講じる必要がある。",
+      "isCorrect": true,
+      "explanation": "体調不良時は、任務継続より安全確保を優先する。",
+      "imagePath": null
+    },
+    {
+      "question": "重大事故の速報は、郵送書面でしか行えず、電話や電子メールは認められない。",
+      "isCorrect": false,
+      "explanation": "速報は電話、FAX、電子メールその他適切な方法で行うことができる。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者が前日に飲酒していないと申告した場合は、乗務前点呼でアルコール検知器を使用しなくてもよい。",
+      "isCorrect": false,
+      "explanation": "前日の申告にかかわらず、所定の確認を省略してはならない。",
+      "imagePath": null
     }
   ],
-
-
   "part2": [
     {
       "question": "自動車検査証の有効期間が満了した自動車は、道路を運行してはならない。",
@@ -603,11 +901,308 @@
       "isCorrect": true,
       "explanation": "正解！内側から開かなくする機構です。",
       "imagePath": null
+    },
+    {
+      "question": "自動車検査証は、写しを車内に置いておけば原本を備え付ける必要はない。",
+      "isCorrect": false,
+      "explanation": "自動車検査証は原本を備え付けるのが原則である。",
+      "imagePath": null
+    },
+    {
+      "question": "自動車検査証の有効期間が満了しても、点検が済んでいれば道路を運行できる。",
+      "isCorrect": false,
+      "explanation": "有効期間が満了した自動車は、検査証更新前に運行してはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "継続検査は、有効期間が満了した後でなければ受けられない。",
+      "isCorrect": false,
+      "explanation": "継続検査は有効期間満了前の所定期間内から受けられる。",
+      "imagePath": null
+    },
+    {
+      "question": "初めて自動車を使用するときに受ける検査は継続検査という。",
+      "isCorrect": false,
+      "explanation": "初めて使用するときに受けるのは新規検査である。",
+      "imagePath": null
+    },
+    {
+      "question": "使用の本拠の位置に変更があっても、登録上の手続は不要である。",
+      "isCorrect": false,
+      "explanation": "本拠変更には変更登録等の手続が必要となる。",
+      "imagePath": null
+    },
+    {
+      "question": "使用者や住所等の検査証記載事項に変更があった場合、何の手続も不要である。",
+      "isCorrect": false,
+      "explanation": "検査証記載事項の変更には、所定の申請手続が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "自動車の長さ、幅、高さなどに変更が生じた場合は、構造等変更検査の対象となることがある。",
+      "isCorrect": true,
+      "explanation": "保安基準適合性を再確認するため、構造等変更検査が必要になる。",
+      "imagePath": null
+    },
+    {
+      "question": "整備管理者は、点検整備計画の策定や整備実施の管理には関与しない。",
+      "isCorrect": false,
+      "explanation": "整備管理者は点検整備体制の管理に関与する。",
+      "imagePath": null
+    },
+    {
+      "question": "整備管理者は、一定の実務経験や研修修了等の要件を満たす必要がある。",
+      "isCorrect": true,
+      "explanation": "整備管理者には、整備士資格又は実務経験等に基づく要件がある。",
+      "imagePath": null
+    },
+    {
+      "question": "整備管理者は、整備の必要があっても運行に支障がなければ何も指示しなくてよい。",
+      "isCorrect": false,
+      "explanation": "整備上の問題があれば、適切な措置と管理が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用自動車の日常点検は、運行後にまとめて行えば足りる。",
+      "isCorrect": false,
+      "explanation": "日常点検は運行前に行うことが基本である。",
+      "imagePath": null
+    },
+    {
+      "question": "日常点検は、整備工場でしか行ってはならず、運転者が行うことは禁止されている。",
+      "isCorrect": false,
+      "explanation": "日常点検は運行の用に供する前に運転者等が実施する。",
+      "imagePath": null
+    },
+    {
+      "question": "ブレーキ、タイヤ、灯火類、ワイパー等は日常点検の対象ではない。",
+      "isCorrect": false,
+      "explanation": "これらは日常点検の代表的な確認項目である。",
+      "imagePath": null
+    },
+    {
+      "question": "日常点検では、灯火類の点灯状況を確認する必要はない。",
+      "isCorrect": false,
+      "explanation": "灯火類は安全確保上重要であり、日常点検項目に含まれる。",
+      "imagePath": null
+    },
+    {
+      "question": "旅客自動車運送事業用自動車には、定期点検基準は設けられていない。",
+      "isCorrect": false,
+      "explanation": "事業用自動車には法定の定期点検基準がある。",
+      "imagePath": null
+    },
+    {
+      "question": "定期点検整備記録簿は、その記載日から一定期間保存しなければならない。",
+      "isCorrect": true,
+      "explanation": "記録簿には保存義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "定期点検整備記録簿は、点検後ただちに破棄してよい。",
+      "isCorrect": false,
+      "explanation": "記録簿は法令で定められた期間保存しなければならない。",
+      "imagePath": null
+    },
+    {
+      "question": "特定整備を行った場合は、その内容を記録簿に記載し保存する必要がある。",
+      "isCorrect": true,
+      "explanation": "重要な整備履歴として、法定の記録・保存が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "特定整備の記録は、口頭で伝えれば足り、書面等で残す必要はない。",
+      "isCorrect": false,
+      "explanation": "特定整備の内容は、所定の記録簿に残す必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "乗車定員11人以上のバスでも、消火器の備付けは不要である。",
+      "isCorrect": false,
+      "explanation": "一定規模のバスには消火器の備付けが必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "一定規模以上のバスには、所定の基準を満たす非常口が必要である。",
+      "isCorrect": true,
+      "explanation": "非常時の避難確保のため、非常口設置基準がある。",
+      "imagePath": null
+    },
+    {
+      "question": "非常口表示は、昼間だけ見えれば足り、夜間識別は不要である。",
+      "isCorrect": false,
+      "explanation": "夜間でも識別できるよう照明や反射材等が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "バスの乗降口扉は、走行中に振動で開くおそれがあってもよい。",
+      "isCorrect": false,
+      "explanation": "走行中に確実に閉鎖される構造が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "タクシー等の自動ドアは、運転席から確実に操作できることが求められる。",
+      "isCorrect": true,
+      "explanation": "乗降時の安全確保のため、遠隔操作装置にも基準がある。",
+      "imagePath": null
+    },
+    {
+      "question": "装飾目的でブレーキランプや方向指示器の色を自由に変更してもよい。",
+      "isCorrect": false,
+      "explanation": "灯火類の色は保安基準で定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "警音器には、音の連続性や大きさなどの保安基準はない。",
+      "isCorrect": false,
+      "explanation": "警音器にも保安基準上の要件がある。",
+      "imagePath": null
+    },
+    {
+      "question": "前面・運転席側面ガラスの可視光線透過率には基準があり、著しく低いものは認められない。",
+      "isCorrect": true,
+      "explanation": "視界確保のため、透過率基準が定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "ナンバープレートにカバーを付けて一部が見えにくくなっていても、番号が推測できれば問題ない。",
+      "isCorrect": false,
+      "explanation": "登録番号標は明瞭に表示されていなければならない。",
+      "imagePath": null
+    },
+    {
+      "question": "マフラーを切断して騒音を増大させる行為は、不正改造に該当する。",
+      "isCorrect": true,
+      "explanation": "保安基準に適合しない改造は不正改造である。",
+      "imagePath": null
+    },
+    {
+      "question": "不正改造が疑われても、整備命令や使用停止措置の対象にはならない。",
+      "isCorrect": false,
+      "explanation": "不正改造車には整備命令等の措置が行われ得る。",
+      "imagePath": null
+    },
+    {
+      "question": "タイヤは、スリップサインが露出していないか等を確認し、必要な溝深さを確保しなければならない。",
+      "isCorrect": true,
+      "explanation": "タイヤの溝深さ不足は安全性と適法性の両面で問題となる。",
+      "imagePath": null
+    },
+    {
+      "question": "冬用タイヤは、プラットホームが露出していても冬用として使用できる。",
+      "isCorrect": false,
+      "explanation": "プラットホーム露出後は冬用タイヤとして使用できない。",
+      "imagePath": null
+    },
+    {
+      "question": "タイヤの空気圧は、一般に走行直後の高温状態より冷間時に確認するのが適切である。",
+      "isCorrect": true,
+      "explanation": "走行直後は温度上昇で空気圧が変動するため、冷間時確認が基本である。",
+      "imagePath": null
+    },
+    {
+      "question": "ホイール・ナットの緩み確認は、車輪脱落事故防止の観点から重要である。",
+      "isCorrect": true,
+      "explanation": "ナットの緩みは重大事故につながり得る。",
+      "imagePath": null
+    },
+    {
+      "question": "大型車のタイヤ交換後の増し締めは、車輪脱落事故防止に有効である。",
+      "isCorrect": true,
+      "explanation": "一定距離走行後の増し締めは、実務上重要な予防措置である。",
+      "imagePath": null
+    },
+    {
+      "question": "高速道路等で故障停止した場合、停止表示器材による後続車への表示が必要である。",
+      "isCorrect": true,
+      "explanation": "後続車への危険防止措置として表示器材の使用が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行中に異音や異常を認めた場合は、そのまま帰庫を優先し、途中で安全措置を講じる必要はない。",
+      "isCorrect": false,
+      "explanation": "安全に関わる異常時は、必要に応じて運行中止や応急措置が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "バスやタクシーの座席には、保安基準に基づきシートベルトを備えることが求められる場合がある。",
+      "isCorrect": true,
+      "explanation": "座席ベルトに関する備付基準がある。",
+      "imagePath": null
+    },
+    {
+      "question": "方向指示器は、一定の周期で点滅するものでなければならない。",
+      "isCorrect": true,
+      "explanation": "点滅周期も保安基準の対象である。",
+      "imagePath": null
+    },
+    {
+      "question": "フロントガラスには、運転者の視界を妨げるステッカーを自由に貼ってよい。",
+      "isCorrect": false,
+      "explanation": "貼付できるものは限定されている。",
+      "imagePath": null
+    },
+    {
+      "question": "バスの通路や乗降口周辺は、旅客が安全に移動できるよう一定の基準を満たす必要がある。",
+      "isCorrect": true,
+      "explanation": "通路幅や照明等は保安基準で管理される。",
+      "imagePath": null
+    },
+    {
+      "question": "バスの車内灯は、夜間に旅客の乗降や通路移動が安全に行えなくてもよい。",
+      "isCorrect": false,
+      "explanation": "夜間でも十分に照明できることが必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "バッテリー端子の接続状態などは、日常点検の対象となる項目がある。",
+      "isCorrect": true,
+      "explanation": "電源系の異常は始動不良等に直結するため、点検が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "一定の大型貨物自動車には、最高速度を制限する速度抑制装置の装着義務がある。",
+      "isCorrect": true,
+      "explanation": "所定の貨物自動車には速度抑制装置装着義務が課されている。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用バス等も、自動車リサイクル法に基づくリサイクル料金預託の対象となる。",
+      "isCorrect": true,
+      "explanation": "事業用であっても対象自動車にはリサイクル制度が適用される。",
+      "imagePath": null
+    },
+    {
+      "question": "チャイルドロックは、走行中に後席の子どもが誤ってドアを開けることを防ぐための装置である。",
+      "isCorrect": true,
+      "explanation": "旅客の安全確保に有効な装置である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理者は、日常点検の実施状況を確認し、必要に応じて整備管理者と連携する。",
+      "isCorrect": true,
+      "explanation": "安全運行のため、点検結果の確認と連携が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "運行管理者は、日常点検の結果を一切確認しなくても差し支えない。",
+      "isCorrect": false,
+      "explanation": "点検の実施有無や運行可否に関わる結果確認は重要である。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用自動車の継続検査有効期間は、車種や用途に応じて定められている。",
+      "isCorrect": true,
+      "explanation": "事業用自動車では、一般に短い有効期間が設定される。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用自動車は、新車登録後も一般に何年でも車検を受けなくてよい。",
+      "isCorrect": false,
+      "explanation": "事業用自動車には、所定周期で継続検査を受ける義務がある。",
+      "imagePath": null
     }
   ],
-
-
-
   "part3": [
     {
       "question": "旅客自動車運送事業の用に供する自動車（バス・タクシー等）を運転して旅客を運送する場合、その車種に応じた「第二種運転免許」を受けなければならない。",
@@ -908,10 +1503,308 @@
       "isCorrect": true,
       "explanation": "正解！雨の日はスピードダウンが鉄則です。",
       "imagePath": null
+    },
+    {
+      "question": "旅客を有償で運送するためにバスやタクシーを運転する場合でも、第二種運転免許は不要である。",
+      "isCorrect": false,
+      "explanation": "旅客の有償運送には原則として第二種運転免許が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "普通第二種免許があれば、大型バスも運転できる。",
+      "isCorrect": false,
+      "explanation": "大型バスの旅客運送には、大型第二種免許等が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "第二種免許の取得には、年齢や免許保有期間の要件はない。",
+      "isCorrect": false,
+      "explanation": "第二種免許には年齢や経験年数等の受験資格がある。",
+      "imagePath": null
+    },
+    {
+      "question": "交差点の側端から5メートル以内は、駐車も停車も禁止される。",
+      "isCorrect": true,
+      "explanation": "安全確保のため、交差点付近には厳しい駐停車規制がある。",
+      "imagePath": null
+    },
+    {
+      "question": "消防用機械器具置場や防火水槽出入口から5メートル以内は、駐車だけでなく停車も禁止されている。",
+      "isCorrect": false,
+      "explanation": "この場所は駐車禁止だが、停車まで一律禁止される場所とは限らない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者が乗車していても、客待ちなどで継続的に停止していれば駐車に当たる。",
+      "isCorrect": true,
+      "explanation": "駐車は運転者の乗車有無だけでなく停止の態様で判断される。",
+      "imagePath": null
+    },
+    {
+      "question": "短時間であれば、客待ち目的の継続停止は停車として扱われる。",
+      "isCorrect": false,
+      "explanation": "客待ちなど継続停止は駐車に該当する。",
+      "imagePath": null
+    },
+    {
+      "question": "停留所で発進合図をした路線バスであっても、後方車両がその発進を妨げてよい。",
+      "isCorrect": false,
+      "explanation": "発進合図後の路線バスの発進は原則として妨げてはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "優先通行帯が指定されている場合、他の車両も常時自由に通行できる。",
+      "isCorrect": false,
+      "explanation": "優先通行帯では、他の車両の通行は原則として制限される。",
+      "imagePath": null
+    },
+    {
+      "question": "旅客の乗降時は、ドア開閉や発進のタイミングに特別な注意は不要である。",
+      "isCorrect": false,
+      "explanation": "乗降時はドア操作や発進タイミングに十分注意する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "高速道路では、後部座席の乗客にシートベルト着用義務はない。",
+      "isCorrect": false,
+      "explanation": "高速道路では後部座席の乗客にも着用義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用自動車の後部座席乗客は、どの道路でもシートベルトを着用しなくてよい。",
+      "isCorrect": false,
+      "explanation": "後部座席の着用義務や着用促進は重要である。",
+      "imagePath": null
+    },
+    {
+      "question": "事業用自動車が踏切を通過する際、原則として一時停止や安全確認は不要である。",
+      "isCorrect": false,
+      "explanation": "踏切では原則として一時停止と安全確認が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "交通事故発生時は、警察への報告だけ行えばよく、救護や危険防止措置は後回しでよい。",
+      "isCorrect": false,
+      "explanation": "事故時は負傷者救護、危険防止、警察への報告を直ちに行う必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "物損事故だけなら、警察への報告は不要である。",
+      "isCorrect": false,
+      "explanation": "交通事故が起きた場合は、原則として警察への報告義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "運転中の携帯電話の手持ち通話や画面注視は、事業用自動車なら認められる。",
+      "isCorrect": false,
+      "explanation": "運転中の携帯電話使用等は禁止されている。",
+      "imagePath": null
+    },
+    {
+      "question": "自動ブレーキ等の先進安全技術が搭載されていれば、運転者は前方注視義務を負わない。",
+      "isCorrect": false,
+      "explanation": "運転の主体はあくまで運転者であり、前方注視義務は免れない。",
+      "imagePath": null
+    },
+    {
+      "question": "あおり運転は、現在でも特に厳しい処分対象にはなっていない。",
+      "isCorrect": false,
+      "explanation": "妨害運転は厳罰化されている。",
+      "imagePath": null
+    },
+    {
+      "question": "黄色信号は、常にそのまま進行する合図である。",
+      "isCorrect": false,
+      "explanation": "黄色信号は原則停止であり、停止困難時に限り進行できる。",
+      "imagePath": null
+    },
+    {
+      "question": "横断歩道手前30メートル以内では、追い越しが禁止されている。",
+      "isCorrect": true,
+      "explanation": "歩行者保護のため横断歩道付近では追い越し禁止である。",
+      "imagePath": null
+    },
+    {
+      "question": "車両通行帯のないトンネル内でも、見通しが良ければ自由に追い越せる。",
+      "isCorrect": false,
+      "explanation": "車両通行帯のないトンネル内は追い越し禁止場所である。",
+      "imagePath": null
+    },
+    {
+      "question": "大型バスの高速自動車国道における最高速度には法定基準がない。",
+      "isCorrect": false,
+      "explanation": "大型乗用自動車の最高速度には法定基準がある。",
+      "imagePath": null
+    },
+    {
+      "question": "高速道路本線車道では、短時間なら自由に駐停車できる。",
+      "isCorrect": false,
+      "explanation": "本線車道での駐停車は原則禁止である。",
+      "imagePath": null
+    },
+    {
+      "question": "夜間に道路へ駐停車するときは、尾灯や非常点滅表示灯等により後続車へ表示する必要がある。",
+      "isCorrect": true,
+      "explanation": "夜間の視認性確保は事故防止上重要である。",
+      "imagePath": null
+    },
+    {
+      "question": "病気や過労などで安全運転できないおそれがある場合でも、本人が希望すれば運転してよい。",
+      "isCorrect": false,
+      "explanation": "安全運転に支障があるおそれがある者の運転は禁止される。",
+      "imagePath": null
+    },
+    {
+      "question": "身体障害者補助犬を連れた旅客の乗車を、動物が苦手という理由だけで拒否してよい。",
+      "isCorrect": false,
+      "explanation": "補助犬同伴を理由に正当なく乗車拒否することは適切でない。",
+      "imagePath": null
+    },
+    {
+      "question": "運転免許証の更新期間は、有効期間満了年の誕生日当日のみである。",
+      "isCorrect": false,
+      "explanation": "更新期間は誕生日の前後1か月の計2か月である。",
+      "imagePath": null
+    },
+    {
+      "question": "免許証を携帯せずに運転した場合は、無免許運転そのものとして扱われる。",
+      "isCorrect": false,
+      "explanation": "免許不携帯は違反だが、無免許運転とは区別される。",
+      "imagePath": null
+    },
+    {
+      "question": "車両通行帯が3以上ある道路では、大型車は原則として最も左側の通行帯を通行する。",
+      "isCorrect": true,
+      "explanation": "大型車には通行帯通行の原則がある。",
+      "imagePath": null
+    },
+    {
+      "question": "警笛鳴らせの標識がある場所では、指定状況に応じて警音器を鳴らす必要がある。",
+      "isCorrect": true,
+      "explanation": "標識に従った警音器使用義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "乗車定員計算では、12歳未満の小児は1人を大人1人として計算する。",
+      "isCorrect": false,
+      "explanation": "12歳未満の小児は、一定の方法で換算して計算する。",
+      "imagePath": null
+    },
+    {
+      "question": "第二種免許取得者であっても、普通免許等の保有期間が通算1年未満なら初心運転者標識の表示義務が生じる場合がある。",
+      "isCorrect": true,
+      "explanation": "標識表示義務は免許保有期間により判断される。",
+      "imagePath": null
+    },
+    {
+      "question": "聴覚障害者標識を表示した車に対する幅寄せや割込みは禁止されている。",
+      "isCorrect": true,
+      "explanation": "障害者標識表示車両への危険行為は禁止される。",
+      "imagePath": null
+    },
+    {
+      "question": "同じ場所に長時間駐車し続けることは、保管場所法違反となる場合がある。",
+      "isCorrect": true,
+      "explanation": "長時間放置駐車には別の法令上の規制もある。",
+      "imagePath": null
+    },
+    {
+      "question": "大型車の積載物の高さには、道路交通法上の制限がある。",
+      "isCorrect": true,
+      "explanation": "積載物の高さは所定範囲内でなければならない。",
+      "imagePath": null
+    },
+    {
+      "question": "後退時は、シートベルト着用義務が一律に免除される。",
+      "isCorrect": true,
+      "explanation": "道路交通法上、後退時には着用義務の例外がある。",
+      "imagePath": null
+    },
+    {
+      "question": "旅客が乗車している車両から、やむを得ない事情がなくてもエンジンをかけたまま離れてよい。",
+      "isCorrect": false,
+      "explanation": "旅客乗車中の車両をみだりに離れることは適切でない。",
+      "imagePath": null
+    },
+    {
+      "question": "児童・幼児の乗降のため停車している通学通園バスの側方を通過するときは、安全確認のため徐行が必要である。",
+      "isCorrect": true,
+      "explanation": "児童等保護のため徐行義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "タクシーに乳幼児を乗せる場合でも、常にチャイルドシート装着義務がある。",
+      "isCorrect": false,
+      "explanation": "旅客運送の実態に応じた例外がある。",
+      "imagePath": null
+    },
+    {
+      "question": "停留所で停車中の路線バスは、発進合図をしても常に後方車両へ進路を譲らなければならない。",
+      "isCorrect": false,
+      "explanation": "発進合図後は、後方車両が原則として妨害してはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "車庫の出入口から3メートル以内は、駐車禁止である。",
+      "isCorrect": true,
+      "explanation": "出入口の機能確保のため駐車が禁止される。",
+      "imagePath": null
+    },
+    {
+      "question": "消火栓の標識から5メートル以内でも、客待ちタクシーなら自由に駐車できる。",
+      "isCorrect": false,
+      "explanation": "消火栓付近には駐車禁止規制がある。",
+      "imagePath": null
+    },
+    {
+      "question": "黄色信号は、常に加速して交差点を通過する合図である。",
+      "isCorrect": false,
+      "explanation": "黄灯火は原則停止であり、例外は安全に停止できない場合に限られる。",
+      "imagePath": null
+    },
+    {
+      "question": "高速道路本線車道では、少しの時間であれば客扱いのため停車してよい。",
+      "isCorrect": false,
+      "explanation": "本線車道での客扱い停車は原則禁止である。",
+      "imagePath": null
+    },
+    {
+      "question": "酒気帯びや過労状態の者へ車両を提供することは、道路交通法で禁止されている。",
+      "isCorrect": true,
+      "explanation": "危険運転を助長する車両提供は禁じられている。",
+      "imagePath": null
+    },
+    {
+      "question": "酒気帯び運転者と知りながら同乗することも禁止される場合がある。",
+      "isCorrect": true,
+      "explanation": "飲酒運転助長行為として同乗も規制対象となる。",
+      "imagePath": null
+    },
+    {
+      "question": "バス車内で急病人が出た場合、運転者は運行管理者や救急へ連絡し適切に対応する必要がある。",
+      "isCorrect": true,
+      "explanation": "旅客の生命身体保護のため迅速な対応が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "ハイドロプレーニング防止には、速度調整や適正空気圧、十分なタイヤ溝が重要である。",
+      "isCorrect": true,
+      "explanation": "雨天時の浮き上がり防止には基本的な車両管理と速度管理が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "停車中であれば、運転中と同じく一切の携帯電話操作が常に違反となる。",
+      "isCorrect": false,
+      "explanation": "運転中の規制が中心であり、停止中の扱いは状況により異なる。",
+      "imagePath": null
+    },
+    {
+      "question": "第二種免許を要するのは旅客の有償運送であり、自家用自動車を私用で運転するだけなら第二種免許は不要である。",
+      "isCorrect": true,
+      "explanation": "旅客の有償運送と私的運転では必要免許が異なる。",
+      "imagePath": null
     }
   ],
-
-
   "part4": [
     {
       "question": "労働基準法において、使用者は、労働者に休憩時間を除き1週間について「40時間」を超えて労働させてはならない。",
@@ -1212,9 +2105,308 @@
       "isCorrect": false,
       "explanation": "不正解！拘束時間は「労働時間 ＋ 休憩時間」の合計です。会社に拘束されている全時間（始業から終業まで）を指します。",
       "imagePath": null
+    },
+    {
+      "question": "労働基準法では、休憩を除く1週間の法定労働時間に上限はない。",
+      "isCorrect": false,
+      "explanation": "法定労働時間は原則として1週40時間、1日8時間である。",
+      "imagePath": null
+    },
+    {
+      "question": "36協定を締結していなくても、使用者は自由に法定時間外労働を命じることができる。",
+      "isCorrect": false,
+      "explanation": "時間外・休日労働には36協定の締結・届出が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "36協定は、届出をしなくても口頭合意だけで効力を持つ。",
+      "isCorrect": false,
+      "explanation": "36協定には書面締結と届出が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "36協定の有効期間は、制限なく何年でも定められる。",
+      "isCorrect": false,
+      "explanation": "一般に36協定の有効期間は最長1年で設定する。",
+      "imagePath": null
+    },
+    {
+      "question": "労働時間が8時間を超えても、休憩時間は不要である。",
+      "isCorrect": false,
+      "explanation": "8時間を超える場合は少なくとも1時間の休憩が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "法定休日は、労働者に全く与えなくてもよい。",
+      "isCorrect": false,
+      "explanation": "休日は毎週1回又は4週間を通じ4日以上与える必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "法定時間外労働に対する割増賃金率は0%でも差し支えない。",
+      "isCorrect": false,
+      "explanation": "法定時間外労働には少なくとも25%以上の割増賃金が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "法定休日労働の割増賃金率は、通常賃金と同額でよい。",
+      "isCorrect": false,
+      "explanation": "法定休日労働には少なくとも35%以上の割増賃金が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "解雇予告は、解雇当日に伝えれば足りる。",
+      "isCorrect": false,
+      "explanation": "30日前予告又は解雇予告手当が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "業務上負傷して休業中の労働者でも、いつでも自由に解雇できる。",
+      "isCorrect": false,
+      "explanation": "休業期間中とその後30日間は原則解雇できない。",
+      "imagePath": null
+    },
+    {
+      "question": "使用者は、労働契約不履行に備えて違約金や損害賠償予定を自由に定めてよい。",
+      "isCorrect": false,
+      "explanation": "違約金の定めや損害賠償額予定は禁止されている。",
+      "imagePath": null
+    },
+    {
+      "question": "賃金は、現物支給や不定期払いだけでも法的に問題ない。",
+      "isCorrect": false,
+      "explanation": "賃金支払5原則に従う必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "6か月継続勤務しても、年次有給休暇制度は一切適用されない。",
+      "isCorrect": false,
+      "explanation": "一定要件を満たせば年次有給休暇が付与される。",
+      "imagePath": null
+    },
+    {
+      "question": "年次有給休暇の請求権に時効はなく、何年でも遡って請求できる。",
+      "isCorrect": false,
+      "explanation": "年次有給休暇の権利には時効がある。",
+      "imagePath": null
+    },
+    {
+      "question": "労働条件の明示は、使用者が口頭で伝えるだけで常に足りる。",
+      "isCorrect": false,
+      "explanation": "重要な労働条件は原則として書面等で明示する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "就業規則の作成・変更には、過半数代表者の意見聴取は不要である。",
+      "isCorrect": false,
+      "explanation": "就業規則には過半数代表者の意見聴取が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "退職時の証明書は、労働者が請求しても交付する必要はない。",
+      "isCorrect": false,
+      "explanation": "請求があった場合は退職時証明を交付する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "国籍や信条を理由に、労働条件で差別してもよい。",
+      "isCorrect": false,
+      "explanation": "国籍、信条、社会的身分等による差別的取扱は禁止されている。",
+      "imagePath": null
+    },
+    {
+      "question": "産後8週間以内の女性は、本人が希望すればどんな業務でも就業できる。",
+      "isCorrect": false,
+      "explanation": "産後8週間は原則就業させてはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "妊産婦が請求した場合でも、時間外・休日・深夜労働を命じることができる。",
+      "isCorrect": false,
+      "explanation": "請求があればこれらを命じてはならない。",
+      "imagePath": null
+    },
+    {
+      "question": "18歳未満の年少者にも、自由に深夜業をさせてよい。",
+      "isCorrect": false,
+      "explanation": "年少者の深夜業は原則禁止される。",
+      "imagePath": null
+    },
+    {
+      "question": "健康診断で異常所見が出ても、就業上の措置は不要である。",
+      "isCorrect": false,
+      "explanation": "必要に応じて就業場所変更等の措置が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "深夜業従事者に特別な頻度の健康診断は不要である。",
+      "isCorrect": false,
+      "explanation": "深夜業従事者には6か月以内ごとの健康診断が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "副業先の労働時間は、本業の労働時間管理と無関係である。",
+      "isCorrect": false,
+      "explanation": "副業・兼業では労働時間通算が問題となる。",
+      "imagePath": null
+    },
+    {
+      "question": "労働者名簿や賃金台帳等は、法令に基づき一定期間保存が必要である。",
+      "isCorrect": true,
+      "explanation": "使用者には法定帳簿保存義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "バス運転者の年間拘束時間には、改善基準告示上の上限が設けられている。",
+      "isCorrect": true,
+      "explanation": "改善基準告示は年間拘束時間も定めている。",
+      "imagePath": null
+    },
+    {
+      "question": "バス運転者の1か月拘束時間には、原則上限が定められている。",
+      "isCorrect": true,
+      "explanation": "月間拘束時間も改善基準告示で制限される。",
+      "imagePath": null
+    },
+    {
+      "question": "休息期間は、勤務終了から次の始業までの継続時間として与える必要がある。",
+      "isCorrect": true,
+      "explanation": "休息期間は連続した自由時間として確保される。",
+      "imagePath": null
+    },
+    {
+      "question": "1日の拘束時間は、必要があれば制限なく延長できる。",
+      "isCorrect": false,
+      "explanation": "拘束時間には原則と最大延長限度が定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "運転者の連続運転時間には上限があり、途中で休憩等により中断しなければならない。",
+      "isCorrect": true,
+      "explanation": "連続運転時間上限と中断ルールが定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "連続運転時間を中断する休憩等は、一定時間以上で分割して取得できる。",
+      "isCorrect": true,
+      "explanation": "1回当たりの最低時間を満たして分割取得できる。",
+      "imagePath": null
+    },
+    {
+      "question": "1日の運転時間は、所定の方法で平均して上限管理される。",
+      "isCorrect": true,
+      "explanation": "2日平均等の考え方で上限が管理される。",
+      "imagePath": null
+    },
+    {
+      "question": "1週間の運転時間にも、平均して超えてはならない基準がある。",
+      "isCorrect": true,
+      "explanation": "週運転時間の上限も定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "客待ちや荷待ちなどの手待時間は、労働時間に含まれる。",
+      "isCorrect": true,
+      "explanation": "使用者の指揮命令下にある時間は労働時間となる。",
+      "imagePath": null
+    },
+    {
+      "question": "フェリー乗船時間は、条件を満たしても休息期間として一切扱えない。",
+      "isCorrect": false,
+      "explanation": "要件を満たせば休息期間扱いできる場合がある。",
+      "imagePath": null
+    },
+    {
+      "question": "2人乗務時の拘束時間は、設備条件等に応じた基準があり、一律同じではない。",
+      "isCorrect": true,
+      "explanation": "2人乗務でも一律の上限ではなく条件による差がある。",
+      "imagePath": null
+    },
+    {
+      "question": "事故や災害等の予期し得ない事象による遅延対応時間は、一定の条件下で拘束時間算入から除外できる。",
+      "isCorrect": true,
+      "explanation": "例外的に除外が認められる仕組みがある。",
+      "imagePath": null
+    },
+    {
+      "question": "改善基準告示における休日は、原則として連続24時間ではなく、数時間の自由時間があれば足りる。",
+      "isCorrect": false,
+      "explanation": "休日には所定の連続時間が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "所定の労使協定があれば、一定の範囲で週運転時間の特例が認められる場合がある。",
+      "isCorrect": true,
+      "explanation": "貸切バス等では特例運用が認められる場合がある。",
+      "imagePath": null
+    },
+    {
+      "question": "夜行高速バス等のワンマン運行では、実車走行距離に原則上限の目安がある。",
+      "isCorrect": true,
+      "explanation": "長距離ワンマン運行には安全確保のための目安がある。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バスの点呼記録は、一定期間保存しなければならない。",
+      "isCorrect": true,
+      "explanation": "旅客運送事業法令上、点呼記録保存義務がある。",
+      "imagePath": null
+    },
+    {
+      "question": "運転以外の業務時間は、拘束時間にも運転時間にも含まれない。",
+      "isCorrect": false,
+      "explanation": "運転以外でも指揮命令下にある時間は拘束時間に含まれる。",
+      "imagePath": null
+    },
+    {
+      "question": "改善基準告示に違反した場合は、常に直ちに刑事罰だけで処理される。",
+      "isCorrect": false,
+      "explanation": "行政指導や改善命令などを含めた対応があり、直ちに刑事罰だけとは限らない。",
+      "imagePath": null
+    },
+    {
+      "question": "1日の拘束時間延長は、所定の回数制限の範囲内でのみ認められる。",
+      "isCorrect": true,
+      "explanation": "延長には回数・条件の制限がある。",
+      "imagePath": null
+    },
+    {
+      "question": "客待ち中でも、完全に労働から解放され自由利用できるなら休憩時間と評価され得る。",
+      "isCorrect": true,
+      "explanation": "休憩時間か労働時間かは自由利用性で判断される。",
+      "imagePath": null
+    },
+    {
+      "question": "副業先の労働時間は、本業先の労働時間計算に全く影響しない。",
+      "isCorrect": false,
+      "explanation": "副業・兼業では通算管理が必要な場合がある。",
+      "imagePath": null
+    },
+    {
+      "question": "平均賃金は、算定事由発生前3か月間の賃金総額を基礎として計算する。",
+      "isCorrect": true,
+      "explanation": "平均賃金計算の基本式が定められている。",
+      "imagePath": null
+    },
+    {
+      "question": "平均賃金は、その月の基本給だけで簡単に決めてよい。",
+      "isCorrect": false,
+      "explanation": "法定の計算方法に従う必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "拘束時間とは、始業から終業までの時間で、休憩や仮眠等の取扱いも含めて定義される。",
+      "isCorrect": true,
+      "explanation": "拘束時間は単純な運転時間とは異なる概念である。",
+      "imagePath": null
+    },
+    {
+      "question": "拘束時間には、休憩時間や指揮命令下の待機時間などを一切含めない。",
+      "isCorrect": false,
+      "explanation": "拘束時間は始業から終業までの全体時間を基礎に考える。",
+      "imagePath": null
     }
   ],
-
   "part5": [
     {
       "question": "自動車の停止距離は、運転者が危険を感じてブレーキを踏み、ブレーキが効き始めるまでの「空走距離」と、ブレーキが効き始めてから停止するまでの「制動距離」の和である。",
@@ -1515,8 +2707,306 @@
       "isCorrect": true,
       "explanation": "正解！心の健康状態（メンタルヘルス）の管理も重要です。",
       "imagePath": null
+    },
+    {
+      "question": "停止距離は、制動距離だけを考えれば足り、空走距離は含めない。",
+      "isCorrect": false,
+      "explanation": "停止距離は空走距離と制動距離の合計で考える。",
+      "imagePath": null
+    },
+    {
+      "question": "速度が上がると制動距離はおおむね速度に比例して伸びる。",
+      "isCorrect": false,
+      "explanation": "制動距離は一般に速度の二乗に比例して増える。",
+      "imagePath": null
+    },
+    {
+      "question": "路線バスの発進時は、乗客の着席や手すり保持を確認する必要はない。",
+      "isCorrect": false,
+      "explanation": "発進時は乗客の安全状態に配慮する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "乗客が着席していなくても、定時運行を優先してすぐ発進するのが適切である。",
+      "isCorrect": false,
+      "explanation": "安全確保が優先される。",
+      "imagePath": null
+    },
+    {
+      "question": "長い下り坂でブレーキを使い続けても、フェード現象は起こらない。",
+      "isCorrect": false,
+      "explanation": "長い下り坂ではフェード現象が起こることがある。",
+      "imagePath": null
+    },
+    {
+      "question": "ベーパーロックは、タイヤの空気圧低下で起こる現象である。",
+      "isCorrect": false,
+      "explanation": "ベーパーロックはブレーキ液の沸騰により起こる。",
+      "imagePath": null
+    },
+    {
+      "question": "ABS作動時は、すぐにブレーキペダルから足を離すのが基本である。",
+      "isCorrect": false,
+      "explanation": "ABS作動時も通常はブレーキを踏み続ける。",
+      "imagePath": null
+    },
+    {
+      "question": "ABS作動時は、ブレーキから足を離してハンドル操作だけに集中するのが基本である。",
+      "isCorrect": false,
+      "explanation": "ABS作動時もブレーキは踏み続ける。",
+      "imagePath": null
+    },
+    {
+      "question": "カーブで働く遠心力は、速度に無関係で一定である。",
+      "isCorrect": false,
+      "explanation": "遠心力は速度の二乗に比例し、カーブ半径に反比例する。",
+      "imagePath": null
+    },
+    {
+      "question": "大型バスはホイールベースが長いため、右左折時の内輪差が大きくなりやすい。",
+      "isCorrect": true,
+      "explanation": "後輪軌跡に対する注意が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "夜間の蒸発現象は起こらず、対向車ライトの影響で見えにくくなることはない。",
+      "isCorrect": false,
+      "explanation": "夜間は対向車ライト等で歩行者が見えにくくなる蒸発現象に注意が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "濃霧時は、常にハイビームにするのが最も見やすい。",
+      "isCorrect": false,
+      "explanation": "濃霧時はハイビームで見えにくくなることがある。",
+      "imagePath": null
+    },
+    {
+      "question": "暗順応は瞬時に完了するため、明るい場所から暗い場所へ移ってもすぐに十分見える。",
+      "isCorrect": false,
+      "explanation": "暗順応には時間がかかる。",
+      "imagePath": null
+    },
+    {
+      "question": "速度が上がるほど視野は広がり、周辺状況を把握しやすくなる。",
+      "isCorrect": false,
+      "explanation": "速度上昇により視野は狭まりやすい。",
+      "imagePath": null
+    },
+    {
+      "question": "指差呼称は、誤認や見落とし防止にはほとんど効果がない。",
+      "isCorrect": false,
+      "explanation": "指差呼称は確認意識を高め、誤認や見落とし防止に有効である。",
+      "imagePath": null
+    },
+    {
+      "question": "トンネル出口や橋の上では、横風の影響を特に考える必要はない。",
+      "isCorrect": false,
+      "explanation": "トンネル出口や橋の上では横風の影響を受けやすい。",
+      "imagePath": null
+    },
+    {
+      "question": "市販薬なら、眠気などの副作用があっても乗務前に気にせず服用してよい。",
+      "isCorrect": false,
+      "explanation": "市販薬でも副作用がある場合は乗務前服用に注意が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "長い下り坂では、ニュートラル走行にして燃費を優先するのが安全である。",
+      "isCorrect": false,
+      "explanation": "エンジンブレーキを活用し、ニュートラル走行は避けるべきである。",
+      "imagePath": null
+    },
+    {
+      "question": "ドライブレコーダー映像は、事故後の証拠にはなっても教育には使えない。",
+      "isCorrect": false,
+      "explanation": "ヒヤリハット教育などにも活用できる。",
+      "imagePath": null
+    },
+    {
+      "question": "事故現場で呼吸がない負傷者に対し、一次救命処置を考える必要はない。",
+      "isCorrect": false,
+      "explanation": "呼吸がない場合は胸骨圧迫など一次救命処置を考える。",
+      "imagePath": null
+    },
+    {
+      "question": "AT車のクリープ現象は、渋滞時や停車時の追突・接触事故原因になり得る。",
+      "isCorrect": true,
+      "explanation": "ブレーキ保持が甘いと不意の前進が起こる。",
+      "imagePath": null
+    },
+    {
+      "question": "ダブルタイヤの内側は見えにくいため、打音や空気圧確認が重要である。",
+      "isCorrect": true,
+      "explanation": "見えにくい箇所ほど丁寧な点検が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "雪道発進では、急発進よりも穏やかなアクセル操作が有効である。",
+      "isCorrect": true,
+      "explanation": "空転防止のため繊細な操作が求められる。",
+      "imagePath": null
+    },
+    {
+      "question": "少量の飲酒なら、プロ運転者であれば運転に支障はない。",
+      "isCorrect": false,
+      "explanation": "少量でも判断力や反応速度に影響しうる。",
+      "imagePath": null
+    },
+    {
+      "question": "高齢乗客には、停車まで着席を促す車内案内が転倒防止に有効である。",
+      "isCorrect": true,
+      "explanation": "高齢者事故防止に有効な実務対応である。",
+      "imagePath": null
+    },
+    {
+      "question": "自動ブレーキ装置がある車両なら、車間距離を詰めても問題ない。",
+      "isCorrect": false,
+      "explanation": "先進安全装置を過信せず十分な車間距離が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "SASが疑われる運転者には、精密検査や治療の受診が重要である。",
+      "isCorrect": true,
+      "explanation": "居眠り事故防止のため早期対応が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "車いす乗客は、固定装置を使わずともブレーキを掛けていれば十分である。",
+      "isCorrect": false,
+      "explanation": "固定装置等で確実に固定する必要がある。",
+      "imagePath": null
+    },
+    {
+      "question": "雨の降り始めは、路面の油分や泥が浮いて滑りやすくなる。",
+      "isCorrect": true,
+      "explanation": "初期降雨時は特に滑走事故に注意が必要である。",
+      "imagePath": null
+    },
+    {
+      "question": "大型バスは運転席位置が高く、直前や側方の低い位置に死角が生じやすい。",
+      "isCorrect": true,
+      "explanation": "発進・右左折時の巻き込み防止に重要である。",
+      "imagePath": null
+    },
+    {
+      "question": "自分の運転技術への過信は、危険予測不足や無理な運転につながりやすい。",
+      "isCorrect": true,
+      "explanation": "過信はヒューマンエラーの要因である。",
+      "imagePath": null
+    },
+    {
+      "question": "夜間は原則ハイビームを活用し、対向車や先行車がいるときなどにロービームへ切り替える。",
+      "isCorrect": true,
+      "explanation": "夜間視認性向上の基本である。",
+      "imagePath": null
+    },
+    {
+      "question": "大地震時は、急ブレーキではなく周囲に注意しながら緩やかに減速して停止する。",
+      "isCorrect": true,
+      "explanation": "二次事故防止のため落ち着いた停止が重要である。",
+      "imagePath": null
+    },
+    {
+      "question": "動体視力は、一般に年齢とともに低下しやすい。",
+      "isCorrect": true,
+      "explanation": "高齢化と視認能力低下は安全運転上の重要論点である。",
+      "imagePath": null
+    },
+    {
+      "question": "運行遅れが出た場合、運行管理者が『遅れを取り戻せ』と速度超過を促すのは適切である。",
+      "isCorrect": false,
+      "explanation": "定時性より安全運行を優先すべきである。",
+      "imagePath": null
+    },
+    {
+      "question": "スタンディングウェーブ現象は、空気圧不足や高速走行などが要因となることがある。",
+      "isCorrect": true,
+      "explanation": "タイヤの異常変形から重大事故につながりうる。",
+      "imagePath": null
+    },
+    {
+      "question": "追突防止の基本は、十分な車間距離の確保とわき見防止である。",
+      "isCorrect": true,
+      "explanation": "基本動作の徹底が追突防止に直結する。",
+      "imagePath": null
+    },
+    {
+      "question": "タクシーで行先が近距離というだけなら、正当な乗車拒否理由にはならない。",
+      "isCorrect": true,
+      "explanation": "近距離を理由とする拒否は適切でない。",
+      "imagePath": null
+    },
+    {
+      "question": "マウスウォッシュや栄養ドリンク摂取直後は、アルコール検知器が反応することがある。",
+      "isCorrect": true,
+      "explanation": "誤反応防止のため適切な再確認が必要になる。",
+      "imagePath": null
+    },
+    {
+      "question": "貸切バスでは、高速道路に入る前などにシートベルト着用案内を行うことが有効である。",
+      "isCorrect": true,
+      "explanation": "車内安全確保のための実務対応である。",
+      "imagePath": null
+    },
+    {
+      "question": "ASVの車線逸脱警報装置は、わき見や居眠りによる逸脱防止支援に役立つ。",
+      "isCorrect": true,
+      "explanation": "先進安全技術は運転支援に有効である。",
+      "imagePath": null
+    },
+    {
+      "question": "トンネル火災で車両を置いて避難する際は、常にキーを持って避難するのが原則である。",
+      "isCorrect": false,
+      "explanation": "避難時は車両移動対応を考慮し、キーを付ける又はわかる場所に残すのが基本である。",
+      "imagePath": null
+    },
+    {
+      "question": "事故防止には、危険の認知、適切な判断、確実な操作の連携が重要である。",
+      "isCorrect": true,
+      "explanation": "認知・判断・操作のどれが欠けても事故リスクが高まる。",
+      "imagePath": null
+    },
+    {
+      "question": "ふんわりアクセルは、燃費向上だけでなく車内事故防止にも役立つ。",
+      "isCorrect": true,
+      "explanation": "急加速防止は旅客の安全にもつながる。",
+      "imagePath": null
+    },
+    {
+      "question": "ブラックアイスバーンは濡れた路面に見えやすく、油断しやすい。",
+      "isCorrect": true,
+      "explanation": "冬道事故防止の重要論点である。",
+      "imagePath": null
+    },
+    {
+      "question": "強いストレスや悩み事は、注意力低下や判断ミスにつながりやすい。",
+      "isCorrect": true,
+      "explanation": "心理状態も安全運転に影響する。",
+      "imagePath": null
+    },
+    {
+      "question": "車内で不審物を見つけたら、まず中身を確認するために開封するのが基本である。",
+      "isCorrect": false,
+      "explanation": "不用意に触れず、人命安全を優先して通報・隔離対応を検討する。",
+      "imagePath": null
+    },
+    {
+      "question": "バスジャック時は、犯人を刺激しても早く制圧しようとすることが最優先である。",
+      "isCorrect": false,
+      "explanation": "人命安全確保を最優先に、冷静に対応することが基本である。",
+      "imagePath": null
+    },
+    {
+      "question": "ハイドロプレーニングが起きたときは、急ブレーキや急ハンドルを避けるべきである。",
+      "isCorrect": true,
+      "explanation": "急な操作は車両挙動をさらに不安定にする。",
+      "imagePath": null
+    },
+    {
+      "question": "雪道発進では、空転させるほど強くアクセルを踏んだ方が発進しやすい。",
+      "isCorrect": false,
+      "explanation": "空転を避けた穏やかな操作が基本である。",
+      "imagePath": null
     }
   ]
 }
-
-

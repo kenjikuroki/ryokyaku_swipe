@@ -149,13 +149,13 @@ abstract class AppLocalizations {
   /// No description provided for @sisterAppTitle.
   ///
   /// In ja, this message translates to:
-  /// **'４択問題アプリリリース！'**
+  /// **'公式例題ベースの問題集アプリが登場！'**
   String get sisterAppTitle;
 
   /// No description provided for @sisterAppSubTitle.
   ///
   /// In ja, this message translates to:
-  /// **'空き時間にサクサク解ける\n姉妹アプリはこちら'**
+  /// **'「サクサク過去問」'**
   String get sisterAppSubTitle;
 
   /// No description provided for @premiumUpgrade.
@@ -325,6 +325,90 @@ abstract class AppLocalizations {
   /// In ja, this message translates to:
   /// **'ホームに戻る'**
   String get backToHome;
+
+  /// No description provided for @sisterAppDialogTitle.
+  ///
+  /// In ja, this message translates to:
+  /// **'関連アプリもチェック！'**
+  String get sisterAppDialogTitle;
+
+  /// No description provided for @sisterAppDialogBody.
+  ///
+  /// In ja, this message translates to:
+  /// **'別の資格試験対策アプリも公開中です。'**
+  String get sisterAppDialogBody;
+
+  /// No description provided for @open.
+  ///
+  /// In ja, this message translates to:
+  /// **'開く'**
+  String get open;
+
+  /// No description provided for @back.
+  ///
+  /// In ja, this message translates to:
+  /// **'戻る'**
+  String get back;
+
+  /// No description provided for @noData.
+  ///
+  /// In ja, this message translates to:
+  /// **'問題データがまだありません'**
+  String get noData;
+
+  /// No description provided for @selectCategory.
+  ///
+  /// In ja, this message translates to:
+  /// **'カテゴリーを選択'**
+  String get selectCategory;
+
+  /// No description provided for @purchase.
+  ///
+  /// In ja, this message translates to:
+  /// **'購入する'**
+  String get purchase;
+
+  /// No description provided for @restorePurchase.
+  ///
+  /// In ja, this message translates to:
+  /// **'購入を復元する'**
+  String get restorePurchase;
+
+  /// No description provided for @featureSequentialTitle.
+  ///
+  /// In ja, this message translates to:
+  /// **'「連続」モードの解放'**
+  String get featureSequentialTitle;
+
+  /// No description provided for @featureSequentialDesc.
+  ///
+  /// In ja, this message translates to:
+  /// **'1問目から順番にすべての問題を解くことができます。'**
+  String get featureSequentialDesc;
+
+  /// No description provided for @featureNoAdsTitle.
+  ///
+  /// In ja, this message translates to:
+  /// **'広告を完全に非表示'**
+  String get featureNoAdsTitle;
+
+  /// No description provided for @featureNoAdsDesc.
+  ///
+  /// In ja, this message translates to:
+  /// **'アプリ内のあらゆる広告を非表示にします。'**
+  String get featureNoAdsDesc;
+
+  /// No description provided for @premiumCardTitle.
+  ///
+  /// In ja, this message translates to:
+  /// **'プレミアムプランに\nアップグレード'**
+  String get premiumCardTitle;
+
+  /// No description provided for @premiumCardSubtitle.
+  ///
+  /// In ja, this message translates to:
+  /// **'広告を非表示にして集中！'**
+  String get premiumCardSubtitle;
 }
 
 class _AppLocalizationsDelegate

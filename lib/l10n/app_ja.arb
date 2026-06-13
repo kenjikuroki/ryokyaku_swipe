@@ -15,8 +15,8 @@
       }
     }
   },
-  "sisterAppTitle": "４択問題アプリリリース！",
-  "sisterAppSubTitle": "空き時間にサクサク解ける\n姉妹アプリはこちら",
+  "sisterAppTitle": "公式例題ベースの問題集アプリが登場！",
+  "sisterAppSubTitle": "「サクサク過去問」",
   "premiumUpgrade": "プレミアムアップグレード",
   "premiumUpgradeDesc": "広告を完全に非表示にし、全問順番通りモードを解放！",
   "buy": "購入",
@@ -65,5 +65,19 @@
   "checkMistakes": "ミスを確認",
   "imageQuestion": "画像問題",
   "retry": "リトライ",
-  "backToHome": "ホームに戻る"
+  "backToHome": "ホームに戻る",
+  "sisterAppDialogTitle": "関連アプリもチェック！",
+  "sisterAppDialogBody": "別の資格試験対策アプリも公開中です。",
+  "open": "開く",
+  "back": "戻る",
+  "noData": "問題データがまだありません",
+  "selectCategory": "カテゴリーを選択",
+  "purchase": "購入する",
+  "restorePurchase": "購入を復元する",
+  "featureSequentialTitle": "「連続」モードの解放",
+  "featureSequentialDesc": "1問目から順番にすべての問題を解くことができます。",
+  "featureNoAdsTitle": "広告を完全に非表示",
+  "featureNoAdsDesc": "アプリ内のあらゆる広告を非表示にします。",
+  "premiumCardTitle": "プレミアムプランに\nアップグレード",
+  "premiumCardSubtitle": "広告を非表示にして集中！"
 }

@@ -15,8 +15,8 @@
       }
     }
   },
-  "sisterAppTitle": "4-Choice Quiz App Released!",
-  "sisterAppSubTitle": "Solve quickly in your spare time\nSister app is here",
+  "sisterAppTitle": "公式例題ベースの問題集アプリが登場！",
+  "sisterAppSubTitle": "「サクサク過去問」",
   "premiumUpgrade": "Premium Upgrade",
   "premiumUpgradeDesc": "Completely hide ads and unlock sequential mode!",
   "buy": "Buy",
@@ -65,5 +65,19 @@
   "checkMistakes": "Check Mistakes",
   "imageQuestion": "Image Question",
   "retry": "Retry",
-  "backToHome": "Back to Home"
+  "backToHome": "Back to Home",
+  "sisterAppDialogTitle": "Also check out our related app!",
+  "sisterAppDialogBody": "A study app for another license exam is also available.",
+  "open": "Open",
+  "back": "Back",
+  "noData": "No quiz data available",
+  "selectCategory": "Select Category",
+  "purchase": "Purchase",
+  "restorePurchase": "Restore Purchase",
+  "featureSequentialTitle": "Unlock Sequential Mode",
+  "featureSequentialDesc": "You can solve all questions in order from the first one.",
+  "featureNoAdsTitle": "Completely Hide Ads",
+  "featureNoAdsDesc": "Hides all ads in the app.",
+  "premiumCardTitle": "Upgrade to\nPremium Plan",
+  "premiumCardSubtitle": "Concentrate without ads!"
 }

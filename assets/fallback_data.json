@@ -1,0 +1,4027 @@
+{
+  "config": {
+    "app_id": "ryokyaku",
+    "app_name": "運行管理者 旅客",
+    "next_app_text": "",
+    "ios_id": "",
+    "ios_ad_id": "ca-app-pub-3331079517737737~7433595783",
+    "ios_ad_banner": "ca-app-pub-3331079517737737/5971312639",
+    "ios_ad_inter": "ca-app-pub-3331079517737737/3315667975",
+    "ios_premium_id": "unlock_ryokaku",
+    "ios_next_app_url": "",
+    "android_id": "",
+    "andoroid_ad_id": "",
+    "android_ad_banner": "",
+    "android_ad_inter": "",
+    "andoroid_premium_id": "",
+    "android_next_app_url": "",
+    "next_app_enabled": 0,
+    "sale_enabled": 1,
+    "sale_end_date": "2026-12-31",
+    "regular_price": 390,
+    "sale_price": 190,
+    "AppConfigs": "https://docs.google.com/forms/d/e/1FAIpQLSeyl6MTKbXbQCH7Ur-Ua2isMG8tsXSuNsAZc6fn_FFLQJo-hQ/viewform"
+  },
+  "questions": [
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バスでは、一定距離を超える運行で交替運転者の配置が必要となる場合がある。",
+      "is_correct": "〇",
+      "explanation": "長距離運行等では、過労運転防止のため交替運転者配置が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "泥酔した者や他の旅客に迷惑を及ぼすおそれがある者であっても、運送の申込みは必ず引き受けなければならない。",
+      "is_correct": "×",
+      "explanation": "他の旅客に迷惑を及ぼすおそれがある場合などは、申込みを拒絶できる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "車庫以外の場所で乗務を終了した場合は、対面点呼ができなくても電話点呼を省略してよい。",
+      "is_correct": "×",
+      "explanation": "所定の方法により点呼を実施する必要があり、勝手に省略できない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "異常気象等により輸送の安全確保に支障が生ずるおそれがある場合、運行管理者は運行の中断等の措置を講じる必要がある。",
+      "is_correct": "〇",
+      "explanation": "安全に支障が生じる場合は、運行継続より安全確保が優先される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務前点呼において、疾病、疲労、睡眠不足などの状況を確認することは、運転者本人からの申告があれば省略できる。",
+      "is_correct": "×",
+      "explanation": "不正解！本人の申告だけでなく、運行管理者が目視等で客観的に確認しなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "バスの乗降口の扉を閉める際、運転者の操作が不適切であったことにより乗客に傷害（医師の治療を受けた）が生じた場合、事故報告書の提出が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！扉の挟み込み事故などは、たとえ軽傷であっても、原因が不適切な操作にある場合は報告義務の対象となります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、輸送の安全を確保するために必要な金額を予算に計上するなどの措置を講じなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！安全投資は法的義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般乗合旅客自動車運送事業を経営するには、事業計画や運行計画等を定めたうえで許可を受ける必要がある。",
+      "is_correct": "〇",
+      "explanation": "乗合事業は道路運送法に基づく許可事業である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業計画の変更のうち、営業所の「名称」変更などの軽微な事項については、事後に届け出ればよい。",
+      "is_correct": "〇",
+      "explanation": "正解！名称変更は事後届出でOKですが、営業所の「位置（所在地）」の変更は原則として「認可」が必要ですので注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者は、事業用自動車の運転者が長距離運転や夜間の運転に従事する場合、過労運転を防止するため、交替運転者の配置など必要な措置を講じなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！運行管理者の重要な基本的業務の一つです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "旅客自動車運送事業者は、天災その他やむを得ない事由がある場合などを除き、正当な理由なく運送の引受けを拒絶してはならない。",
+      "is_correct": "〇",
+      "explanation": "公共交通としての性格上、原則として運送引受義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行指示書は、貸切バスなどの運行経路が特定されている運行において、乗務前・乗務後いずれかの点呼の際に運転者に携行させればよい。",
+      "is_correct": "×",
+      "explanation": "不正解！運行指示書は「乗務前」から「乗務終了」まで携行させ、運行内容に変更があればその都度書き写させなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者は、異常気象などで輸送の安全確保に支障が生ずるおそれがあるときは、乗務員に対する指示や、一時運行の中断などの措置を講じなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！無理な運行をさせない判断が求められます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "IT点呼を実施する場合でも、対面点呼と同等の効果を確保するためのカメラやモニター等の機器が必要になる。",
+      "is_correct": "〇",
+      "explanation": "遠隔であっても、本人確認や状態確認が適切に行える設備が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行指示書には、運行の経路、日時、運転者の氏名などを記載する。",
+      "is_correct": "〇",
+      "explanation": "運行指示書は、安全な貸切運行に必要な基本情報を明記する文書である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "道路運送法の名義貸し禁止規定に違反した場合、事業許可の取消し等の処分対象となり得る。",
+      "is_correct": "〇",
+      "explanation": "名義貸しは重大な違反行為であり、厳しい行政処分の対象となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務後点呼では、自動車、道路及び運行の状況等について報告を求める。",
+      "is_correct": "〇",
+      "explanation": "乗務後点呼では、運行の結果や異常の有無を把握する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "名義貸しの禁止規定に違反した場合、事業許可の取消し処分の対象となる。",
+      "is_correct": "〇",
+      "explanation": "正解！名義貸しは重大な違反であり、許可取消しの対象となります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者の代務者として業務を行わせる場合は、あらかじめ届け出た資格者証保有者であることが必要である。",
+      "is_correct": "〇",
+      "explanation": "代務者も安全確保上の重要職務を担うため、資格要件が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "「一般乗用旅客自動車運送事業」とは、いわゆるタクシーやハイヤー事業のことである。",
+      "is_correct": "〇",
+      "explanation": "正解！一個の契約により乗車定員10人以下の自動車を貸し切る形態です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務前点呼では、疾病、疲労、睡眠不足その他の安全運転に支障を及ぼすおそれの有無を確認する必要がある。",
+      "is_correct": "〇",
+      "explanation": "健康状態の確認は点呼の重要項目である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般乗用旅客自動車運送事業（タクシー等）は、届出だけで開始できる。",
+      "is_correct": "×",
+      "explanation": "一般乗用旅客自動車運送事業も、原則として国土交通大臣の許可が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バス事業者は、運送の引受けに際し、運送申込書（引受書）の写しを運行終了後「3年間」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！貸切バス事業者の書類保存期間は、1年ではなく「3年」に厳格化されています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行指示書には、「運行の経路」、「運行の日時」、「運転者の氏名」などを記載しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！これらに加え、休憩地点や到着予定時刻なども必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運行記録計（タコグラフ）による記録を、解析し、運転者の指導及び監督に使用しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！記録するだけでなく、それを指導に活かすことが義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運賃及び料金、運送約款などを、営業所などの公衆に見やすい場所に掲示しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！利用者への情報開示義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "重大な事故が発生した場合の速報は、24時間以内に行う必要がある。",
+      "is_correct": "〇",
+      "explanation": "速報は迅速性が重視され、所定時間内の報告が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "旅客自動車運送事業の許可は、5年ごとの更新制となっている。",
+      "is_correct": "×",
+      "explanation": "不正解！事業の許可自体に有効期限はありません（※ただし、貸切バス事業のみ安全評価のための「5年ごとの更新制」が導入されています）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事故惹起運転者は、口頭注意のみで直ちに再乗務させれば足り、特別な指導は不要である。",
+      "is_correct": "×",
+      "explanation": "事故惹起運転者には再乗務前の特別な指導が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "車庫の適切な管理や整備管理者との連携は、運行管理者の業務には含まれない。",
+      "is_correct": "×",
+      "explanation": "運行管理者は、車庫管理や整備管理者との連携を通じて安全運行を支える。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "アルコール検知器は、常時有効に保持しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！故障していないか、定期的に点検・メンテナンスしておく義務があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、乗務員の健康状態の把握に努め、疾病、疲労、睡眠不足などの理由により安全な運転ができないおそれがある乗務員を乗務させてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！「睡眠不足」も乗務禁止の理由として法令に明記されています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理補助者は、点呼総回数の3分の2以上を担当しても差し支えない。",
+      "is_correct": "×",
+      "explanation": "補助者が担当できる点呼の割合には上限がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が一人で運行する貸切バスでは、2日平均で1日当たり10時間まで運転できる。",
+      "is_correct": "×",
+      "explanation": "所定の基準では、2日平均で1日当たり9時間を超えてはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者本人が「問題ない」と申告した場合、疾病や睡眠不足等の確認は省略できる。",
+      "is_correct": "×",
+      "explanation": "本人申告だけでなく、必要な確認を適切に行う必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "アルコール検知器は、常時有効に保持しなければならない。",
+      "is_correct": "〇",
+      "explanation": "検知器は常に正常に使用できる状態に保つ必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務前点呼は、原則として対面で実施する。",
+      "is_correct": "〇",
+      "explanation": "点呼は原則対面で行い、やむを得ない場合に限って電話その他の方法が認められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "旅客自動車運送事業者は、天災その他やむを得ない事由がある場合を除き、運送の引受けを拒絶してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！公共交通機関としての「引受義務」があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "IT点呼（遠隔点呼）を実施する場合でも、営業所と車庫の間には、対面点呼と同等の効果を有するカメラ・モニター等の機器が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！顔色や全身の様子が確認できる環境が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、安全管理規程を定めたときは、国土交通大臣に「届出」をしなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！許可ではなく届出事項です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "旅客自動車運送事業の許可は、5年ごとに自動更新申請が必要な更新制である。",
+      "is_correct": "×",
+      "explanation": "一般的な旅客自動車運送事業許可は一律の5年更新制ではない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者の補助者は、点呼の一部を行うことができるが、点呼の総回数の「3分の2未満」でなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！補助者がすべて行うことはできません。運行管理者が最低でも1/3は行う必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "道路運送法上の一般旅客自動車運送事業には、一般乗合、一般貸切、一般乗用、特定旅客の4種類がある。",
+      "is_correct": "〇",
+      "explanation": "旅客自動車運送事業は、需要の形態や契約形態に応じて4類型に区分される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "アルコール検知器による測定は、運転者の顔色や呼気に酒気帯びの様子がないと認められる場合は省略してもよい。",
+      "is_correct": "×",
+      "explanation": "絶対に不正解！目視で大丈夫そうに見えても、必ずアルコール検知器を使用しなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般乗合旅客自動車運送事業（路線バス）の運賃及び料金を設定しようとするときは、原則として国土交通大臣の「認可」を受けなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！路線バスやタクシーの運賃は、利用者の利益保護のため「認可制」が基本です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "泥酔した者や不潔な服装をした者など、他の旅客に迷惑を及ぼすおそれがある者からの運送の申込みは、拒絶することができる。",
+      "is_correct": "〇",
+      "explanation": "正解！正当な理由として、運送約款等で拒絶できる規定があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務員は、休憩時間中であれば点呼時に酒気が検出されなければ飲酒しても問題ない。",
+      "is_correct": "×",
+      "explanation": "乗務に影響する飲酒は許されず、休憩時間だからといって自由にはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運行管理者が業務を行うために必要な権限を与えなければならない。",
+      "is_correct": "〇",
+      "explanation": "権限の付与がなければ、運行管理者は実効的に安全管理業務を遂行できない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運行管理者がその業務を行うため必要な権限を与えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！責任を負わせるだけでなく、業務遂行に必要な権限の付与が義務付けられています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、死者を生じた事故や、5人以上の重傷者を生じた事故が発生した場合、24時間以内に事故報告（速報）をしなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！重大事故は「速報（24時間以内）」の対象です。なお、転覆・転落・火災などの事故も速報の対象となります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "特定旅客自動車運送事業とは、不特定多数の旅客を自由に運送するタクシー事業のことである。",
+      "is_correct": "×",
+      "explanation": "特定旅客自動車運送事業は、特定の者の需要に応じて特定範囲の旅客を運送する事業である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運賃、料金、運送約款などの掲示は、事業者の任意であり、公衆の見やすい場所に掲げる義務はない。",
+      "is_correct": "×",
+      "explanation": "公衆の見やすい場所への掲示が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バスの運賃は、下限額を下回る運賃で契約しても、双方の合意があれば違反にはならない。",
+      "is_correct": "×",
+      "explanation": "不正解！公示運賃の下限を割る安値受注は、安全コストを削る恐れがあるため法令違反となり、処分の対象です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が前日に飲酒していないと申告した場合は、乗務前点呼でアルコール検知器を使用しなくてもよい。",
+      "is_correct": "×",
+      "explanation": "前日の申告にかかわらず、所定の確認を省略してはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業用自動車の運転者が、有効な運転免許証を携帯しているかどうかの確認は、運行管理者の業務に含まれる。",
+      "is_correct": "〇",
+      "explanation": "正解！点呼時に免許証の提示を求め、有効期限や条件（眼鏡等）を確認します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運行管理者が病気などで不在の場合、あらかじめ届け出た代務者（資格者証を有する者）に業務を行わせることができる。",
+      "is_correct": "〇",
+      "explanation": "正解！不在時に備えて代務者を選任・届出しておくシステムがあります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務後点呼では、「自動車、道路及び運行の状況」のほか、「乗務交代時の通告」についても報告を求めなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！他の運転者と交替した場合、何を引き継いだかも確認事項です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理補助者に選任されるには、基礎講習を修了しているか、または「3年」以上の実務経験が必要である。",
+      "is_correct": "×",
+      "explanation": "不正解！実務経験などの要件はなく、基礎講習修了等の要件を満たす必要があります。（※旅客・貨物ともに補助者の要件に実務経験のみの規定はありません）",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "新たに雇い入れた運転者には、事故防止等に関する特別な指導を行い、初任診断を受けさせる必要がある。",
+      "is_correct": "〇",
+      "explanation": "初任運転者への特別指導と適性診断は、基本的な安全措置である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バスの運賃は、契約当事者が合意していれば下限額を下回っても差し支えない。",
+      "is_correct": "×",
+      "explanation": "下限額を下回る運賃での契約は、合意があっても適法とはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、新たに雇い入れた運転者に対して、事故防止などの特別な指導を行うとともに、適性診断（初任診断）を受けさせなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！初任運転者には特別な教育と診断が義務付けられています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者から特段の申告がない場合、乗務後点呼は省略して差し支えない。",
+      "is_correct": "×",
+      "explanation": "乗務後点呼も法令上の重要な確認手続であり、勝手に省略できない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、事故惹起運転者（事故を起こした運転者）に対し、再度乗務させる前に特別な指導を行わなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！特定診断の受診や特別指導が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者の業務には、有効な運転免許証の携帯確認も含まれる。",
+      "is_correct": "〇",
+      "explanation": "法令順守と安全運行の観点から、免許証確認も重要な業務である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バスの事業者は、運送の安全を確保するため、出発地から到着地までの距離が所定のキロ数を超える場合、交替運転者を配置しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！昼間500km、夜間400km（条件により変動）などの基準があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、運行管理者を選任したときは、遅滞なくその旨を国土交通大臣に「許可」を受けなければならない。",
+      "is_correct": "×",
+      "explanation": "不正解！選任・解任に関しては、許可ではなく「届出（遅滞なく）」で済みます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "輸送の安全確保に必要な費用は、法令上の明確な要求がないため予算化しなくてもよい。",
+      "is_correct": "×",
+      "explanation": "安全確保に必要な金額を予算に計上するなどの措置が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "適性診断のうち「適齢診断」は、65歳以上の運転者が対象であり、75歳以上の場合は3年に1回の受診が必要である。",
+      "is_correct": "×",
+      "explanation": "不正解！75歳以上の場合は「1年に1回」の受診が必要です（65才〜74才は3年に1回）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理補助者は、運行管理者の指揮監督を受けずに独自の基準で点呼方法を変更できる。",
+      "is_correct": "×",
+      "explanation": "補助者は運行管理者の指揮監督下で業務を補助する立場である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務員が休憩時間中に自由に飲酒することは、点呼時にアルコールが検出されなければ問題ない。",
+      "is_correct": "×",
+      "explanation": "不正解！乗務前点呼で検出されなくても、酒気帯び状態で乗務する可能性のある飲酒は禁止されています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バス事業者は、点呼の記録を3年間保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "貸切バス事業では、点呼記録の長期保存が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務前の点呼は、原則として対面で行わなければならないが、運行上やむを得ない場合は電話その他の方法で行うことができる。",
+      "is_correct": "〇",
+      "explanation": "正解！遠隔地での乗務開始・終了など、どうしても対面できない物理的な事情がある場合に限り認められます（単に車庫が離れているだけでは認められません）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行指示書は、乗務前または乗務後の点呼のどちらか一方で携行させれば足りる。",
+      "is_correct": "×",
+      "explanation": "必要な時期に適切に携行・確認できるよう運用しなければならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般貸切旅客自動車運送事業は、一個の契約により乗車定員11人以上の自動車を貸し切って旅客を運送する事業である。",
+      "is_correct": "〇",
+      "explanation": "一般貸切旅客自動車運送事業は、契約単位と車両規模で定義される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "アルコール検知器による確認は、外見上問題がなければ省略できる。",
+      "is_correct": "×",
+      "explanation": "外見や自己申告にかかわらず、所定の確認を省略してはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "疾病、疲労、睡眠不足などにより安全な運転ができないおそれがある乗務員でも、本人の希望があれば乗務させてよい。",
+      "is_correct": "×",
+      "explanation": "安全運転に支障があるおそれがある場合は、乗務させてはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者資格者証を持っていなくても、実務経験が長ければ運行管理者に選任できる。",
+      "is_correct": "×",
+      "explanation": "運行管理者に選任されるには、所定の資格者証が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者が安全管理規程を定めたときは、国土交通大臣に届出を行う必要がある。",
+      "is_correct": "〇",
+      "explanation": "安全管理規程は、作成だけでなく届出まで含めて管理される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般乗合旅客自動車運送事業の運賃及び料金は、原則として事後届出だけで自由に設定できる。",
+      "is_correct": "×",
+      "explanation": "一般乗合旅客自動車運送事業の運賃及び料金は、原則として認可が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が乗務を終了した後、車庫以外の場所で乗務を終了し、対面点呼ができない場合は、電話点呼を省略できる。",
+      "is_correct": "×",
+      "explanation": "不正解！対面できない場合は「電話その他」の方法で必ず点呼を行わなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "死者を生じた事故や5人以上の重傷者を生じた事故は、速報の対象ではない。",
+      "is_correct": "×",
+      "explanation": "これらは代表的な速報対象事故である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "複数の営業所でそれぞれ運行管理者を選任している場合、これらを統括する「統括運行管理者」を選任しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！事業全体の安全確保の整合性を図るためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗降口の扉の不適切操作により乗客が医師の治療を受けた場合でも、事故報告は不要である。",
+      "is_correct": "×",
+      "explanation": "事業用自動車の運行に起因する負傷事故として報告が必要となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "重大事故の速報は、郵送書面でしか行えず、電話や電子メールは認められない。",
+      "is_correct": "×",
+      "explanation": "速報は電話、FAX、電子メールその他適切な方法で行うことができる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、毎事業年度経過後100日以内に事業報告書を提出しなければならない。",
+      "is_correct": "〇",
+      "explanation": "旅客自動車運送事業者には、所定期間内の事業報告書提出義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "営業所の名称変更のような軽微な事業計画変更については、事前認可が必要である。",
+      "is_correct": "×",
+      "explanation": "軽微な事項は、原則として認可ではなく事後届出で足りる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "乗務前点呼におけるアルコール検知器の使用は、前日に飲酒していないと運転者が申告した場合は省略できる。",
+      "is_correct": "×",
+      "explanation": "不正解！本人の申告に関わらず、毎回必ず実施しなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "一般乗合旅客自動車運送事業（路線バス等）を経営しようとする者は、国土交通大臣の「許可」を受けなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！バスやタクシーなどの旅客事業を始めるには、最も厳しい「許可」が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "「一般貸切旅客自動車運送事業」とは、一個の契約により乗車定員11人以上の自動車を貸し切って旅客を運送する事業（観光バス等）である。",
+      "is_correct": "〇",
+      "explanation": "正解！定員11人以上がバス（貸切バス）の定義の一つです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バス事業者は、点呼の記録を「3年間」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！貸切バスは安全規制の強化（軽井沢スキーバス事故等を受けて）により、保存期間が1年から3年に延長されています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者は、事業用自動車の保管場所（車庫）を適切に管理し、点検整備が確実に行われるよう整備管理者と連絡をとらなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！両者の連携が不可欠です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "重大な事故が発生した場合の「速報」は、電話、FAX、電子メールその他適切な方法で行うことができる。",
+      "is_correct": "〇",
+      "explanation": "正解！まずは一報を入れることが重要だからです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業者は、毎事業年度の経過後100日以内に、事業報告書を国土交通大臣に提出しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！決算報告などの義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が乗務中に体調不良を訴えた場合、運行管理者は直ちに運転中止や交替手配等の措置を講じる必要がある。",
+      "is_correct": "〇",
+      "explanation": "体調不良時は、任務継続より安全確保を優先する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "貸切バス事業者は、運送申込書や引受書の写しを運行終了後すぐ破棄してよい。",
+      "is_correct": "×",
+      "explanation": "貸切バス事業者は、写しを一定期間保存しなければならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "事業報告書は、事業年度の経過後30日以内に提出しなければならない。",
+      "is_correct": "×",
+      "explanation": "提出期限は30日ではなく、別に定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が乗務中に体調不良を訴えた場合、運行管理者は直ちに運転を中止させ、交替運転者を手配するなどの措置をとらなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！「あと少しだから頑張れ」という指示は絶対にしてはいけません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運転者が一人の場合、貸切バスの運転時間は、「2日を平均して1日当たり9時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！改善基準告示により、特定の日を起算日に2日ごとに区切り、その平均が9時間を超えないようにします。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "「特定旅客自動車運送事業」とは、特定の者の需要に応じ、特定の範囲の旅客を運送する事業（企業の送迎バスなど）である。",
+      "is_correct": "〇",
+      "explanation": "正解！不特定多数ではなく、契約した特定の相手（従業員や学生など）のみを運びます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送法",
+      "question": "運行管理者の資格者証を持っていない者でも、10年以上の実務経験があれば運行管理者に選任できる。",
+      "is_correct": "×",
+      "explanation": "不正解！実務経験だけでは選任できません。必ず試験に合格するなどして「資格者証」を取得する必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "不正改造が疑われても、整備命令や使用停止措置の対象にはならない。",
+      "is_correct": "×",
+      "explanation": "不正改造車には整備命令等の措置が行われ得る。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用自動車の日常点検は、運行管理者が自ら行わなければならない。",
+      "is_correct": "×",
+      "explanation": "不正解！日常点検の実施義務者は「自動車の使用者」または「運行する者（運転者）」です。運行管理者はその実施を管理・確認する立場です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "フロントガラスには、運転者の視界を妨げるステッカーを自由に貼ってよい。",
+      "is_correct": "×",
+      "explanation": "貼付できるものは限定されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "初めて自動車を使用するときに行う検査を「新規検査」という。",
+      "is_correct": "〇",
+      "explanation": "正解！ナンバーのない新車や、抹消登録した中古車を再登録する場合です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "チャイルドロックは、走行中に後席の子どもが誤ってドアを開けることを防ぐための装置である。",
+      "is_correct": "〇",
+      "explanation": "旅客の安全確保に有効な装置である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "定期点検整備記録簿は、その記載日から一定期間保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "記録簿には保存義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "使用者や住所等の検査証記載事項に変更があった場合、何の手続も不要である。",
+      "is_correct": "×",
+      "explanation": "検査証記載事項の変更には、所定の申請手続が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "非常信号用具（発炎筒）は、使用期限が切れていても、車載されていれば車検には通る。",
+      "is_correct": "×",
+      "explanation": "不正解！性能を保持している（期限内の）ものでなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "前面・運転席側面ガラスの可視光線透過率には基準があり、著しく低いものは認められない。",
+      "is_correct": "〇",
+      "explanation": "視界確保のため、透過率基準が定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "日常点検において、ウィンド・ウォッシャー液の量やワイパーの作動状態を確認することは義務付けられていない。",
+      "is_correct": "×",
+      "explanation": "不正解！雨天時の視界確保のため、これらも日常点検の必須項目です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "ホイール・ナットの緩み確認は、車輪脱落事故防止の観点から重要である。",
+      "is_correct": "〇",
+      "explanation": "ナットの緩みは重大事故につながり得る。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タイヤは、スリップサインが露出していないか等を確認し、必要な溝深さを確保しなければならない。",
+      "is_correct": "〇",
+      "explanation": "タイヤの溝深さ不足は安全性と適法性の両面で問題となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、自動車の点検・整備に関する実務経験が「2年以上」あれば、整備士資格がなくても選任できる（研修修了等の要件あり）。",
+      "is_correct": "〇",
+      "explanation": "正解！整備士資格がある場合は実務経験不要ですが、ない場合は2年の経験＋研修が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車検査証は、コピーを車内に備え付けておけば、原本は営業所で保管してもよい。",
+      "is_correct": "×",
+      "explanation": "不正解！運行時は必ず「原本」を当該自動車に備え付けなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "運行中に異音や異常を認めた場合は、そのまま帰庫を優先し、途中で安全措置を講じる必要はない。",
+      "is_correct": "×",
+      "explanation": "安全に関わる異常時は、必要に応じて運行中止や応急措置が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "マフラーを切断して騒音を増大させる行為は、不正改造に該当する。",
+      "is_correct": "〇",
+      "explanation": "保安基準に適合しない改造は不正改造である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの乗降口の扉は、走行中に確実に閉鎖され、振動等で開かない構造でなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！走行中にドアが開くと転落事故につながるため必須です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "不正改造車に対し、地方運輸局長は整備命令を発令し、「不正改造車」のステッカーを貼付して使用を停止させることができる。",
+      "is_correct": "〇",
+      "explanation": "正解！整備して保安基準に適合させ、現車確認を受けるまで剥がせません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "一定の大型貨物自動車には、最高速度を制限する速度抑制装置の装着義務がある。",
+      "is_correct": "〇",
+      "explanation": "所定の貨物自動車には速度抑制装置装着義務が課されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "冬用タイヤは、プラットホームが露出していても冬用として使用できる。",
+      "is_correct": "×",
+      "explanation": "プラットホーム露出後は冬用タイヤとして使用できない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タクシー等の自動ドアは、運転席から確実に操作できることが求められる。",
+      "is_correct": "〇",
+      "explanation": "乗降時の安全確保のため、遠隔操作装置にも基準がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "方向指示器は、一定の周期で点滅するものでなければならない。",
+      "is_correct": "〇",
+      "explanation": "点滅周期も保安基準の対象である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "非常口表示は、昼間だけ見えれば足り、夜間識別は不要である。",
+      "is_correct": "×",
+      "explanation": "夜間でも識別できるよう照明や反射材等が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "マフラー（消音器）を切断したり、取り外したりして騒音を大きくすることは、不正改造に該当する。",
+      "is_correct": "〇",
+      "explanation": "正解！騒音防止装置の機能を損なう改造は禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車登録番号標（ナンバープレート）にカバーを取り付けたり、泥などで見えにくくなっている状態で運行することは禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！番号が識別できるよう、常に見やすい状態にしておく必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "定期点検整備記録簿は、点検後ただちに破棄してよい。",
+      "is_correct": "×",
+      "explanation": "記録簿は法令で定められた期間保存しなければならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの通路や乗降口周辺は、旅客が安全に移動できるよう一定の基準を満たす必要がある。",
+      "is_correct": "〇",
+      "explanation": "通路幅や照明等は保安基準で管理される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、一定の実務経験や研修修了等の要件を満たす必要がある。",
+      "is_correct": "〇",
+      "explanation": "整備管理者には、整備士資格又は実務経験等に基づく要件がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "非常口の表示灯（非常口マーク）は、夜間でも識別できるよう照明するか、反射材を使用しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！暗闇でも位置がわかるようにする必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "冬用タイヤ（スタッドレスタイヤ）であっても、溝の深さがプラットホーム（50%摩耗）まで露出している場合は、冬用タイヤとして使用できない。",
+      "is_correct": "〇",
+      "explanation": "正解！通常の溝（1.6mm）とは別に、雪道性能の限界を示すサインがあります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車検査証の記載事項（使用者、住所等）に変更があったときは、15日以内に「記入申請」を行わなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！車検証の内容を最新の状態にする手続きです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "乗合バスの運転者席には、消火器を備え付けなければならないが、客席には必要ない。",
+      "is_correct": "×",
+      "explanation": "不正解！消火器の設置場所は、運転者等が容易に取り出せる位置であれば良いですが、定員に応じた適切な能力・本数が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "ブレーキ、タイヤ、灯火類、ワイパー等は日常点検の対象ではない。",
+      "is_correct": "×",
+      "explanation": "これらは日常点検の代表的な確認項目である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの車内灯は、夜間に旅客の乗降や通路移動が安全に行えなくてもよい。",
+      "is_correct": "×",
+      "explanation": "夜間でも十分に照明できることが必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タイヤの空気圧点検は、走行直後のタイヤが温まっている状態で行うのが望ましい。",
+      "is_correct": "×",
+      "explanation": "不正解！走行後は熱膨張で空気圧が高くなるため、走行前（冷えている時）に測定します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用自動車の継続検査有効期間は、車種や用途に応じて定められている。",
+      "is_correct": "〇",
+      "explanation": "事業用自動車では、一般に短い有効期間が設定される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "特定整備を行った場合は、その内容を記録簿に記載し保存する必要がある。",
+      "is_correct": "〇",
+      "explanation": "重要な整備履歴として、法定の記録・保存が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "大型車のタイヤ交換後の増し締めは、車輪脱落事故防止に有効である。",
+      "is_correct": "〇",
+      "explanation": "一定距離走行後の増し締めは、実務上重要な予防措置である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用自動車は、新車登録後も一般に何年でも車検を受けなくてよい。",
+      "is_correct": "×",
+      "explanation": "事業用自動車には、所定周期で継続検査を受ける義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、車庫を管理し、車両の点検整備のための設備や工具類を管理する責任がある。",
+      "is_correct": "〇",
+      "explanation": "正解！適切な整備環境を整えることも職務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "ナンバープレートにカバーを付けて一部が見えにくくなっていても、番号が推測できれば問題ない。",
+      "is_correct": "×",
+      "explanation": "登録番号標は明瞭に表示されていなければならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "運行管理者は、日常点検の実施状況を確認し、必要に応じて整備管理者と連携する。",
+      "is_correct": "〇",
+      "explanation": "安全運行のため、点検結果の確認と連携が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "スペアタイヤの空気圧確認は、日常点検の項目に含まれる。",
+      "is_correct": "×",
+      "explanation": "不正解！スペアタイヤは「定期点検（3ヶ月点検）」の項目です。毎日の点検では必須ではありません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスやタクシーの座席には、保安基準に基づき、原則としてシートベルト（座席ベルト）を備えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！高速道路を走行するバスの客席にもシートベルトが必要です（立席を除く）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車検査証の有効期間が満了した自動車は、道路を運行してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！車検切れの運行は絶対禁止です（無車検運行）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "乗車定員30人以上のバスには、非常口を設置しなければならない（所定の基準を満たす場合を除く）。",
+      "is_correct": "〇",
+      "explanation": "正解！万が一の事故火災などに備え、脱出用の非常口や非常扉が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの通路の幅は、保安基準により一定以上の幅（例：30cm以上等）が確保されていなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！スムーズな乗降や非常時の脱出のためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、定期点検の実施計画を策定する権限を持つが、運行可否の決定権は持たない。",
+      "is_correct": "×",
+      "explanation": "不正解！整備管理者は整備不良車の「運行の可否を決定する」重要な権限を持っています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "装飾目的でブレーキランプや方向指示器の色を自由に変更してもよい。",
+      "is_correct": "×",
+      "explanation": "灯火類の色は保安基準で定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用バス等も、自動車リサイクル法に基づくリサイクル料金預託の対象となる。",
+      "is_correct": "〇",
+      "explanation": "事業用であっても対象自動車にはリサイクル制度が適用される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タイヤの空気圧は、一般に走行直後の高温状態より冷間時に確認するのが適切である。",
+      "is_correct": "〇",
+      "explanation": "走行直後は温度上昇で空気圧が変動するため、冷間時確認が基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バッテリーの「液量確認」および「ターミナル部の接続状態」の確認は、共に日常点検の項目である。",
+      "is_correct": "×",
+      "explanation": "不正解！バッテリーの「液量」は日常点検の確認事項ですが、「ターミナル部の接続状態（緩み・腐食等）」は定期点検の項目とされています。混同しないようにしましょう。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "高速道路等で故障停止した場合、停止表示器材による後続車への表示が必要である。",
+      "is_correct": "〇",
+      "explanation": "後続車への危険防止措置として表示器材の使用が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "使用済自動車の再資源化等に関する法律（自動車リサイクル法）に基づき、事業用バスもリサイクル料金を預託しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！事業用車両もリサイクル法の対象です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "旅客自動車運送事業の用に供する自動車（バス・タクシー等）の定期点検基準は、「3ヶ月」ごとである。",
+      "is_correct": "〇",
+      "explanation": "正解！自家用乗用車は1年ごとですが、事業用（緑ナンバー）は走行距離が長いため3ヶ月ごとの点検が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "「分解整備（現在は特定整備）」を行った場合、点検整備記録簿にその内容を記載し、分解整備記録簿として「2年間」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！通常の点検記録（1年）よりも長く保存する必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "警音器（クラクション）は、音が連続するものであり、音の大きさや音色が一定でなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！音が変化するミュージックホーンなどは車検に通りません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バッテリー端子の接続状態などは、日常点検の対象となる項目がある。",
+      "is_correct": "〇",
+      "explanation": "電源系の異常は始動不良等に直結するため、点検が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用自動車の車検有効期間は、新車登録時は2年（一部除く）、それ以降は「1年」である。",
+      "is_correct": "〇",
+      "explanation": "正解！バスやタクシーは毎年車検が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "事業用自動車の日常点検は、運行後にまとめて行えば足りる。",
+      "is_correct": "×",
+      "explanation": "日常点検は運行前に行うことが基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "運行管理者は、日常点検の実施の有無を確認し、点検の結果、運行に支障がある場合は整備管理者と連絡をとらなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！不良箇所が見つかったまま運行させてはいけません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "車検の有効期間の更新（継続検査）は、有効期間満了の「2ヶ月前」から検査を受けることができる。",
+      "is_correct": "〇",
+      "explanation": "正解！法改正により、以前の1ヶ月前から「2ヶ月前」に期間が拡大されました。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "チャイルドロックは、走行中に子供が誤ってドアを開けないようにするための装置であり、タクシーの後部ドア等にも装備されていることが多い。",
+      "is_correct": "〇",
+      "explanation": "正解！内側から開かなくする機構です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車の長さ、幅、高さに変更が生じた場合、15日以内に「構造等変更検査」を受けなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！改造等でサイズが変わった場合は検査が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "車両総重量8トン以上又は最大積載量5トン以上の「貨物自動車」には、最高速度を90km/h以下に制限する速度抑制装置の装着が義務付けられている。",
+      "is_correct": "〇",
+      "explanation": "正解！これはトラック（貨物）に対する規制です。バスの速度抑制装置とは基準が異なりますので混同しないようにしましょう。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "運行管理者は、日常点検の結果を一切確認しなくても差し支えない。",
+      "is_correct": "×",
+      "explanation": "点検の実施有無や運行可否に関わる結果確認は重要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "日常点検の結果、運行に支障がない場合でも、その結果を点検整備記録簿に記録し、1年間保存する法的な義務がある。",
+      "is_correct": "×",
+      "explanation": "不正解！法令上、1年間の保存義務が明記されているのは「定期点検」の記録です。日常点検の記録は社内規定で保存されることが多いですが、法令上の保存期間規定とは異なります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "初めて自動車を使用するときに受ける検査は継続検査という。",
+      "is_correct": "×",
+      "explanation": "初めて使用するときに受けるのは新規検査である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "旅客自動車運送事業用自動車には、定期点検基準は設けられていない。",
+      "is_correct": "×",
+      "explanation": "事業用自動車には法定の定期点検基準がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "特定整備の記録は、口頭で伝えれば足り、書面等で残す必要はない。",
+      "is_correct": "×",
+      "explanation": "特定整備の内容は、所定の記録簿に残す必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車検査証の有効期間が満了しても、点検が済んでいれば道路を運行できる。",
+      "is_correct": "×",
+      "explanation": "有効期間が満了した自動車は、検査証更新前に運行してはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "日常点検は、整備工場でしか行ってはならず、運転者が行うことは禁止されている。",
+      "is_correct": "×",
+      "explanation": "日常点検は運行の用に供する前に運転者等が実施する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、点検整備計画の策定や整備実施の管理には関与しない。",
+      "is_correct": "×",
+      "explanation": "整備管理者は点検整備体制の管理に関与する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タイヤの溝の深さは、ウェアインジケーター（スリップサイン）により確認し、溝の深さが「1.6mm」以上残っていなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！これは乗用車・バス・トラック共通の基準です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車の排気ガスを目視で点検し、著しい黒煙が出ていないか確認することは、日常点検の項目に含まれる。",
+      "is_correct": "×",
+      "explanation": "不正解！排気ガスの状態（色、臭い）は「定期点検」の項目です。日常点検ではエンジンの「かかり具合・異音」を確認します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "使用の本拠の位置に変更があっても、登録上の手続は不要である。",
+      "is_correct": "×",
+      "explanation": "本拠変更には変更登録等の手続が必要となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車の使用者は、使用の本拠の位置に変更があった場合、15日以内に変更登録の申請をしなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！営業所の移転などで車庫が変わる場合が該当します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの窓ガラス（前面および側面）は、可視光線透過率が「70%以上」でなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！スモークフィルムなどで運転席・助手席の視界を遮ってはいけません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "エンジン・オイルの量、冷却水の量、ファン・ベルトの緩み・損傷の確認は、日常点検の項目である。",
+      "is_correct": "〇",
+      "explanation": "正解！ボンネットを開けるか、点検口から確認します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "大型バスのタイヤ交換後、一定距離走行した後にホイール・ナットの増し締めを行うことは、脱落事故防止に有効である。",
+      "is_correct": "〇",
+      "explanation": "正解！初期なじみにより緩むことがあるため、増し締め（リ・トルク）は重要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車の灯火類（ヘッドライト、ブレーキランプ等）の色は保安基準で定められており、装飾のために自由に変更してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！制動灯は赤、方向指示器は橙色など決まっています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "日常点検では、灯火類の点灯状況を確認する必要はない。",
+      "is_correct": "×",
+      "explanation": "灯火類は安全確保上重要であり、日常点検項目に含まれる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "継続検査は、有効期間が満了した後でなければ受けられない。",
+      "is_correct": "×",
+      "explanation": "継続検査は有効期間満了前の所定期間内から受けられる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "定期点検整備記録簿は、その記載の日から「1年間」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！3ヶ月点検などの記録は1年間保存です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "前面ガラス（フロントガラス）に貼ってよいステッカーは、検査標章（車検ステッカー）や点検整備済ステッカーなど、限定されている。",
+      "is_correct": "〇",
+      "explanation": "正解！視界を妨げないよう、許可されたもの以外は貼れません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車の長さ、幅、高さなどに変更が生じた場合は、構造等変更検査の対象となることがある。",
+      "is_correct": "〇",
+      "explanation": "保安基準適合性を再確認するため、構造等変更検査が必要になる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "高速道路等で故障停止したときは、停止表示器材（三角表示板等）により後続車に対して表示しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！「積んでいればよい」ではなく、緊急時に「表示する義務」があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "整備管理者は、整備の必要があっても運行に支障がなければ何も指示しなくてよい。",
+      "is_correct": "×",
+      "explanation": "整備上の問題があれば、適切な措置と管理が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "乗車定員11人以上の自動車（バス）には、非常信号用具に加え、「消火器」を備えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！旅客特有の規定です。幼児専用車も対象です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "一定規模以上のバスには、所定の基準を満たす非常口が必要である。",
+      "is_correct": "〇",
+      "explanation": "非常時の避難確保のため、非常口設置基準がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスやタクシーの座席には、保安基準に基づきシートベルトを備えることが求められる場合がある。",
+      "is_correct": "〇",
+      "explanation": "座席ベルトに関する備付基準がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "ホイール・ナットの緩みの確認において、日常点検では点検ハンマー等を使う必要はなく、目視等での確認でよい。",
+      "is_correct": "〇",
+      "explanation": "正解！ハンマーを使う詳細な点検は「3ヶ月点検」の項目です。日常点検は目視確認でOKです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "乗車定員11人以上のバスでも、消火器の備付けは不要である。",
+      "is_correct": "×",
+      "explanation": "一定規模のバスには消火器の備付けが必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "警音器には、音の連続性や大きさなどの保安基準はない。",
+      "is_correct": "×",
+      "explanation": "警音器にも保安基準上の要件がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "運行中にエンジンの異音などの異常を認めた場合、運転者は帰庫してから整備管理者に報告すればよい。",
+      "is_correct": "×",
+      "explanation": "不正解！直ちに安全な場所に停止し、適切な処置をとるか、運行管理者等に連絡して指示を仰ぐ必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの乗降口扉は、走行中に振動で開くおそれがあってもよい。",
+      "is_correct": "×",
+      "explanation": "走行中に確実に閉鎖される構造が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "バスの車内灯（室内灯）は、夜間、旅客の乗降口や通路を十分に照明できるものでなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！旅客の安全確保のための保安基準です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "方向指示器（ウィンカー）は、毎分60回以上120回以下の一定の周期で点滅するものでなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！早すぎても遅すぎても整備不良となります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "自動車検査証は、写しを車内に置いておけば原本を備え付ける必要はない。",
+      "is_correct": "×",
+      "explanation": "自動車検査証は原本を備え付けるのが原則である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路運送車両法",
+      "question": "タクシーの自動ドア（遠隔操作装置）は、運転席から確実に操作できるものでなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！安全な乗降のため、保安基準で定められています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシーが客待ちのために継続的に停止している場合は、運転者が乗車していても「駐車」に該当する。",
+      "is_correct": "〇",
+      "explanation": "正解！「客待ち」は理由のいかんに関わらず「駐車」扱いです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "酒気帯び運転者と知りながら同乗することも禁止される場合がある。",
+      "is_correct": "〇",
+      "explanation": "飲酒運転助長行為として同乗も規制対象となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転者は、乗降口のドアを閉じる前に発進してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！ドアが開いたままの発進（開扉発車）は道路交通法違反であり、大変危険です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "物損事故だけなら、警察への報告は不要である。",
+      "is_correct": "×",
+      "explanation": "交通事故が起きた場合は、原則として警察への報告義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "大型第二種免許を取得するには、原則として21歳以上であり、かつ、普通免許等の保有期間が通算して「3年以上」なければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！これが基本要件です（※特例教習を受講して19歳から取得する場合を除く）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "身体障害者補助犬を連れた旅客の乗車を、動物が苦手という理由だけで拒否してよい。",
+      "is_correct": "×",
+      "explanation": "補助犬同伴を理由に正当なく乗車拒否することは適切でない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "原動機付自転車（原付）を追い越す場合であっても、追い越し禁止場所では追い越しをしてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！追い越し禁止場所では、相手が何であれ（軽車両を除く）追い越しは禁止です。「追い抜き」は可能です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "自動車の乗車定員は、12歳以上の者1人につき、12歳未満の小児1.5人として計算する。",
+      "is_correct": "〇",
+      "explanation": "正解！「大人2人＝子供3人」で計算します。定員オーバーにならないよう注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "児童・幼児の乗降のため停車している通学通園バスの側方を通過するときは、安全確認のため徐行が必要である。",
+      "is_correct": "〇",
+      "explanation": "児童等保護のため徐行義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "ハイドロプレーニング防止には、速度調整や適正空気圧、十分なタイヤ溝が重要である。",
+      "is_correct": "〇",
+      "explanation": "雨天時の浮き上がり防止には基本的な車両管理と速度管理が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "中型第二種免許を持っていれば、車両総重量11トン以上、最大積載量6.5トン以上の大型バスを運転できる。",
+      "is_correct": "×",
+      "explanation": "不正解！大型バスを運転するには「大型」第二種免許が必要です。中型二種では運転できません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "あおり運転は、現在でも特に厳しい処分対象にはなっていない。",
+      "is_correct": "×",
+      "explanation": "妨害運転は厳罰化されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "バス車内で急病人が出た場合、運転者は運行管理者や救急へ連絡し適切に対応する必要がある。",
+      "is_correct": "〇",
+      "explanation": "旅客の生命身体保護のため迅速な対応が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "第二種免許を受けていれば、自家用自動車（白ナンバー）を運転代行の業務で運転する場合も、第二種免許が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！運転代行業務で客車を運転する場合は二種免許が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "短時間であれば、客待ち目的の継続停止は停車として扱われる。",
+      "is_correct": "×",
+      "explanation": "客待ちなど継続停止は駐車に該当する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "黄色信号は、常にそのまま進行する合図である。",
+      "is_correct": "×",
+      "explanation": "黄色信号は原則停止であり、停止困難時に限り進行できる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "消火栓の標識から5メートル以内でも、客待ちタクシーなら自由に駐車できる。",
+      "is_correct": "×",
+      "explanation": "消火栓付近には駐車禁止規制がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "高速道路本線車道では、短時間なら自由に駐停車できる。",
+      "is_correct": "×",
+      "explanation": "本線車道での駐停車は原則禁止である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車両通行帯のないトンネル内は、追い越し禁止場所である。",
+      "is_correct": "〇",
+      "explanation": "正解！トンネル内は視界が悪いため危険です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転免許証の更新期間は、有効期間満了年の誕生日当日のみである。",
+      "is_correct": "×",
+      "explanation": "更新期間は誕生日の前後1か月の計2か月である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "バスが警笛鳴らせの標識がある区間を通行するときは、見通しのきかない交差点や曲がり角の手前で警音器を鳴らさなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！見通しが良くても悪くても鳴らす場所と、悪い時だけ鳴らす場所があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "消防用機械器具の置場や消防用防火水槽の出入口から「5メートル以内」の部分は、駐車禁止であるが、停車は認められている。",
+      "is_correct": "〇",
+      "explanation": "正解！ここは「駐車禁止場所」なので、人の乗り降りのための停車ならOKです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "横断歩道手前30メートル以内では、追い越しが禁止されている。",
+      "is_correct": "〇",
+      "explanation": "歩行者保護のため横断歩道付近では追い越し禁止である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシーに乗客として乳幼児を乗せる場合、チャイルドシートの使用義務は免除される。",
+      "is_correct": "〇",
+      "explanation": "正解！タクシーやバスなど、不特定多数の客を乗せる場合はチャイルドシートの使用義務が免除されています（物理的に用意できないため）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転中の携帯電話の手持ち通話や画面注視は、事業用自動車なら認められる。",
+      "is_correct": "×",
+      "explanation": "運転中の携帯電話使用等は禁止されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "事業用自動車の後部座席乗客は、どの道路でもシートベルトを着用しなくてよい。",
+      "is_correct": "×",
+      "explanation": "後部座席の着用義務や着用促進は重要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "優先通行帯が指定されている場合、他の車両も常時自由に通行できる。",
+      "is_correct": "×",
+      "explanation": "優先通行帯では、他の車両の通行は原則として制限される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "児童・幼児の乗降のため停車している「通学通園バス」の側方を通過するときは、徐行して安全を確認しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！通学通園バス（スクールバス）に対する徐行義務は道路交通法で明確に定められています。子供の飛び出しに厳重な注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "自動ブレーキ（衝突被害軽減ブレーキ）等の先進安全技術が搭載されている車であれば、運転中にスマートフォンを操作してもよい。",
+      "is_correct": "×",
+      "explanation": "不正解！いかなる安全装備があっても、運転中のスマホ操作（ながら運転）は禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "道路工事の区域の側端から「5メートル以内」の部分は、駐車禁止場所である。",
+      "is_correct": "〇",
+      "explanation": "正解！工事車両の出入りや安全確保のためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "乗車定員計算では、12歳未満の小児は1人を大人1人として計算する。",
+      "is_correct": "×",
+      "explanation": "12歳未満の小児は、一定の方法で換算して計算する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転免許証の更新期間は、有効期間満了年の誕生日の前後1ヶ月（計2ヶ月）である。",
+      "is_correct": "〇",
+      "explanation": "正解！うっかり失効しないよう注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "交差点の側端から5メートル以内は、駐車も停車も禁止される。",
+      "is_correct": "〇",
+      "explanation": "安全確保のため、交差点付近には厳しい駐停車規制がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転者が酒気を帯びていることを知りながら、その運転者が運転する自動車に同乗してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！同乗者も「酒気帯び同乗罪」で処罰されます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "交通事故発生時は、警察への報告だけ行えばよく、救護や危険防止措置は後回しでよい。",
+      "is_correct": "×",
+      "explanation": "事故時は負傷者救護、危険防止、警察への報告を直ちに行う必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "第二種免許の取得には、年齢や免許保有期間の要件はない。",
+      "is_correct": "×",
+      "explanation": "第二種免許には年齢や経験年数等の受験資格がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "停留所で停車中の路線バスは、発進合図をしても常に後方車両へ進路を譲らなければならない。",
+      "is_correct": "×",
+      "explanation": "発進合図後は、後方車両が原則として妨害してはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "第二種免許を要するのは旅客の有償運送であり、自家用自動車を私用で運転するだけなら第二種免許は不要である。",
+      "is_correct": "〇",
+      "explanation": "旅客の有償運送と私的運転では必要免許が異なる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車両通行帯が3つ以上ある道路では、大型等の車両は、最も左側の通行帯を通行しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！指定通行区分に従い、一番左を走ります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "夜間に道路へ駐停車するときは、尾灯や非常点滅表示灯等により後続車へ表示する必要がある。",
+      "is_correct": "〇",
+      "explanation": "夜間の視認性確保は事故防止上重要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "高速自動車国道における大型バス（大型乗用自動車）の法定最高速度は、時速100キロメートルである。",
+      "is_correct": "〇",
+      "explanation": "正解！大型トラックは80km/hですが、大型バスは（一部構造を除き）100km/hまで出せます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "一般道路において、路線バス（乗合バス）等の優先通行帯が指定されている場合、他の自動車は、右左折や工事等やむを得ない場合を除き、その通行帯を通行してはならない。",
+      "is_correct": "×",
+      "explanation": "不正解！「優先通行帯」は通行できますが、バスが近づいてきたら速やかに譲らなければなりません。「専用通行帯」は原則通行禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "大型車の積載物の高さには、道路交通法上の制限がある。",
+      "is_correct": "〇",
+      "explanation": "積載物の高さは所定範囲内でなければならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "高速道路では、後部座席の乗客にシートベルト着用義務はない。",
+      "is_correct": "×",
+      "explanation": "高速道路では後部座席の乗客にも着用義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "後退（バック）するときは、シートベルトの着用義務が免除される。",
+      "is_correct": "〇",
+      "explanation": "正解！後ろを向いて確認しやすくするためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシーに乳幼児を乗せる場合でも、常にチャイルドシート装着義務がある。",
+      "is_correct": "×",
+      "explanation": "旅客運送の実態に応じた例外がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "酒気帯びや過労状態の者へ車両を提供することは、道路交通法で禁止されている。",
+      "is_correct": "〇",
+      "explanation": "危険運転を助長する車両提供は禁じられている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシー運転手は、身体障害者補助犬（盲導犬、介助犬、聴導犬）を連れた客の乗車を拒否してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！犬アレルギー等の正当な理由がない限り、拒否することは法律違反です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "病気や過労などで安全運転できないおそれがある場合でも、本人が希望すれば運転してよい。",
+      "is_correct": "×",
+      "explanation": "安全運転に支障があるおそれがある者の運転は禁止される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客自動車運送事業の用に供するマイクロバスを運転して旅客を運送するには、中型免許では足りず「中型第二種免許」等が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！事業用（緑ナンバー）として旅客を運ぶには、その車の大きさに応じた第二種免許が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "道路の左側端に沿って駐車する場合、車両の右側に「3.5メートル以上」の余地がなければ駐車してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！無余地駐車の禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "高速道路の本線車道（対面通行区間を除く）においては、原則として駐停車禁止である。",
+      "is_correct": "〇",
+      "explanation": "正解！故障時や料金所、SA/PAなどを除き、駐停車禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "事業用自動車が踏切を通過する際、原則として一時停止や安全確認は不要である。",
+      "is_correct": "×",
+      "explanation": "踏切では原則として一時停止と安全確認が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転者が病気や過労などの理由で安全な運転ができないおそれがある場合、事業者はその者に運転させてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！道路交通法上の「過労運転等の禁止」です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "聴覚障害者標識（蝶のマーク）を表示している車に対する幅寄せや割り込みは禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！身体障害者標識（クローバー）や仮免許練習車に対しても同様に保護義務があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "停車中であれば、運転中と同じく一切の携帯電話操作が常に違反となる。",
+      "is_correct": "×",
+      "explanation": "運転中の規制が中心であり、停止中の扱いは状況により異なる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "免許証を携帯せずに運転した場合は、無免許運転そのものとして扱われる。",
+      "is_correct": "×",
+      "explanation": "免許不携帯は違反だが、無免許運転とは区別される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "後退時は、シートベルト着用義務が一律に免除される。",
+      "is_correct": "〇",
+      "explanation": "道路交通法上、後退時には着用義務の例外がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "交通事故が発生した場合、直ちに運転を停止し、負傷者の救護と道路における危険防止の措置を講じ、警察官に報告しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！いわゆる救護義務・報告義務です。これらを怠るとひき逃げ等になります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "交差点の側端から「5メートル以内」の部分は、駐車も停車も禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！交差点内とその前後5mは駐停車禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "第二種免許取得者であっても、普通免許等の保有期間が通算1年未満なら初心運転者標識の表示義務が生じる場合がある。",
+      "is_correct": "〇",
+      "explanation": "標識表示義務は免許保有期間により判断される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシー運転手が、セダン型のタクシーで乗客を乗せる際、高速道路であっても後部座席の乗客にシートベルトを着用させる義務はない。",
+      "is_correct": "×",
+      "explanation": "不正解！全席シートベルト着用が義務です。高速道路では違反点数も付加されます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "黄色信号は、常に加速して交差点を通過する合図である。",
+      "is_correct": "×",
+      "explanation": "黄灯火は原則停止であり、例外は安全に停止できない場合に限られる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "バスの運転者は、車内で急病人が発生した場合、運行管理者や消防（救急）に通報し、適切な措置をとらなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！人命救助が最優先です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車両通行帯が3以上ある道路では、大型車は原則として最も左側の通行帯を通行する。",
+      "is_correct": "〇",
+      "explanation": "大型車には通行帯通行の原則がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "高速道路本線車道では、少しの時間であれば客扱いのため停車してよい。",
+      "is_correct": "×",
+      "explanation": "本線車道での客扱い停車は原則禁止である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "横断歩道や自転車横断帯とその手前「30メートル以内」の場所では、追い越し（進路を変えて前車の前方に出ること）が禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！横断歩道での歩行者事故を防ぐため、前車を追い越す行為は禁止されています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "大型自動車の積載物の高さ制限は、地上から3.8メートル（特定道路等は4.1メートル）までである。",
+      "is_correct": "〇",
+      "explanation": "正解！これを超えるとトンネルや高架に接触する危険があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "黄色の灯火の信号は、停止位置を超えて進行してはならないが、安全に停止することができない場合に限り、そのまま進行することができる。",
+      "is_correct": "〇",
+      "explanation": "正解！急ブレーキで車内で乗客が転倒する恐れがある場合などは、慎重に進行します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "夜間、道路（照明設備がある場所を除く）に駐停車するときは、非常点滅表示灯（ハザード）や尾灯などをつけなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！追突防止のため、自車の存在を知らせる義務があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客自動車運送事業の用に供する自動車（バス・タクシー等）を運転して旅客を運送する場合、その車種に応じた「第二種運転免許」を受けなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！お客様を乗せて営業運転（緑ナンバー）をするには二種免許が必須です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "ハイドロプレーニング現象を防ぐには、タイヤの空気圧を適正にし、溝の深さが十分にあるタイヤを使用し、速度を落として走行する。",
+      "is_correct": "〇",
+      "explanation": "正解！雨の日はスピードダウンが鉄則です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "同じ場所に長時間駐車し続けることは、保管場所法違反となる場合がある。",
+      "is_correct": "〇",
+      "explanation": "長時間放置駐車には別の法令上の規制もある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "停留所で発進合図をした路線バスであっても、後方車両がその発進を妨げてよい。",
+      "is_correct": "×",
+      "explanation": "発進合図後の路線バスの発進は原則として妨げてはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "「あおり運転（妨害運転）」は、通行区分違反や急ブレーキ禁止違反などの違反行為を行い、交通の危険を生じさせる行為として厳罰化されている。",
+      "is_correct": "〇",
+      "explanation": "正解！免許取消し（欠格期間あり）などの非常に重い処分が下されます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "乗合バスの発進の保護として、停留所で乗合バスが発進の合図をしたとき、後方の車は、急ブレーキや急ハンドルで避けなければならない場合を除き、その発進を妨げてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！一般車はバスの発進を優先させる義務があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客を有償で運送するためにバスやタクシーを運転する場合でも、第二種運転免許は不要である。",
+      "is_correct": "×",
+      "explanation": "旅客の有償運送には原則として第二種運転免許が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転者が乗車していても、客待ちなどで継続的に停止していれば駐車に当たる。",
+      "is_correct": "〇",
+      "explanation": "駐車は運転者の乗車有無だけでなく停止の態様で判断される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "警笛鳴らせの標識がある場所では、指定状況に応じて警音器を鳴らす必要がある。",
+      "is_correct": "〇",
+      "explanation": "標識に従った警音器使用義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "初心運転者標識（若葉マーク）は、第二種免許取得者であっても、普通免許等の保有期間が通算1年未満の場合は表示義務がある。",
+      "is_correct": "〇",
+      "explanation": "正解！「二種だから免除」という規定はありません。ただし、二種免許取得者は通常3年以上の経験があるため、結果的に表示義務の対象外となることが一般的です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "普通第二種免許があれば、大型バスも運転できる。",
+      "is_correct": "×",
+      "explanation": "大型バスの旅客運送には、大型第二種免許等が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "路線バスが停留所に停車中、後方から追いついた車は、バスが発車するまで後方で待機しなければならない。",
+      "is_correct": "×",
+      "explanation": "不正解！乗降中でなければ、安全を確認して徐行して通過（追い越し・追い抜き）できます。発進の合図が出たら譲ります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客の乗降時は、ドア開閉や発進のタイミングに特別な注意は不要である。",
+      "is_correct": "×",
+      "explanation": "乗降時はドア操作や発進タイミングに十分注意する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "消防用機械器具置場や防火水槽出入口から5メートル以内は、駐車だけでなく停車も禁止されている。",
+      "is_correct": "×",
+      "explanation": "この場所は駐車禁止だが、停車まで一律禁止される場所とは限らない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "大型バスの高速自動車国道における最高速度には法定基準がない。",
+      "is_correct": "×",
+      "explanation": "大型乗用自動車の最高速度には法定基準がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "同一の場所に引き続き12時間以上（夜間は8時間以上）駐車することは、保管場所法違反となる。",
+      "is_correct": "〇",
+      "explanation": "正解！いわゆる青空駐車の禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車庫の出入口から「3メートル以内」の場所は、駐車禁止である。",
+      "is_correct": "〇",
+      "explanation": "正解！自宅の車庫前であっても路上駐車は違反です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車両通行帯のないトンネル内でも、見通しが良ければ自由に追い越せる。",
+      "is_correct": "×",
+      "explanation": "車両通行帯のないトンネル内は追い越し禁止場所である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転中に携帯電話等を手に持って通話したり、画面を注視したりすることは禁止されており、罰則も強化されている。",
+      "is_correct": "〇",
+      "explanation": "正解！「ながら運転」は非常に危険で、一発免停になる可能性もある重い違反です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "自動ブレーキ等の先進安全技術が搭載されていれば、運転者は前方注視義務を負わない。",
+      "is_correct": "×",
+      "explanation": "運転の主体はあくまで運転者であり、前方注視義務は免れない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客自動車の運転者は、旅客が乗車しているときは、故障などやむを得ない場合を除き、エンジンをかけたまま車を離れてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！お客様を残して車を離れる際は、エンジンを止め、施錠するなど盗難・誤発進防止措置が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "タクシー運転手は、深夜など客待ちのためにやむを得ない場合は、消火栓の標識から5メートル以内の場所に駐車してもよい。",
+      "is_correct": "×",
+      "explanation": "不正解！消火栓周辺は緊急時の給水確保のため、いかなる理由があっても駐車禁止です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "旅客が乗車している車両から、やむを得ない事情がなくてもエンジンをかけたまま離れてよい。",
+      "is_correct": "×",
+      "explanation": "旅客乗車中の車両をみだりに離れることは適切でない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "事業用自動車が踏切を通過する場合、警報機が鳴っておらず遮断機も降りていなければ、一時停止せずに通過できる。",
+      "is_correct": "×",
+      "explanation": "不正解！青信号のついている踏切を除き、必ず直前で「一時停止」し、窓を開けるなどして安全確認しなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "聴覚障害者標識を表示した車に対する幅寄せや割込みは禁止されている。",
+      "is_correct": "〇",
+      "explanation": "障害者標識表示車両への危険行為は禁止される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運転免許証を携帯せずに自動車を運転した場合、無免許運転として処罰される。",
+      "is_correct": "×",
+      "explanation": "不正解！免許自体は有効であれば「免許証不携帯」という別の違反になります（無免許運転よりは軽微ですが違反です）。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "運行中のバスの停留所の表示板（標示柱）から「10メートル以内」の部分は、運行時間中であれば、（当該運行中のバスを除き）駐車だけでなく停車も禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！バス停は「駐停車禁止場所」です。一般車が停まるとバスの運行や乗降の妨げになるためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "過労運転、酒気帯び運転、無免許運転などをしている運転者に、車両を提供することは禁止されている。",
+      "is_correct": "〇",
+      "explanation": "正解！運転者だけでなく、車を貸した側も厳しく処罰されます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "車庫の出入口から3メートル以内は、駐車禁止である。",
+      "is_correct": "〇",
+      "explanation": "出入口の機能確保のため駐車が禁止される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "道路交通法",
+      "question": "「駐車」とは、客待ち、荷待ち、故障などで継続的に停止すること、または運転者が車から離れて直ちに運転できない状態をいう。",
+      "is_correct": "〇",
+      "explanation": "正解！人の乗り降り（時間制限なし）や、5分以内の荷物の積み下ろしで、すぐ運転できる状態なら「停車」です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日の拘束時間は、必要があれば制限なく延長できる。",
+      "is_correct": "×",
+      "explanation": "拘束時間には原則と最大延長限度が定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日の拘束時間延長は、所定の回数制限の範囲内でのみ認められる。",
+      "is_correct": "〇",
+      "explanation": "延長には回数・条件の制限がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働基準法において、使用者は、労働者に休憩時間を除き1週間について「40時間」を超えて労働させてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！法定労働時間の基本です。これを超えるには36協定が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "平均賃金は、算定事由発生前3か月間の賃金総額を基礎として計算する。",
+      "is_correct": "〇",
+      "explanation": "平均賃金計算の基本式が定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働者名簿や賃金台帳等は、法令に基づき一定期間保存が必要である。",
+      "is_correct": "〇",
+      "explanation": "使用者には法定帳簿保存義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "休日は、原則として「毎週少なくとも1回」与えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！または4週間を通じて4日以上の変形休日制も可能です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働者が業務上負傷し、療養のために休業する期間およびその後30日間は、解雇してはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！解雇制限期間です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働基準法では、休憩を除く1週間の法定労働時間に上限はない。",
+      "is_correct": "×",
+      "explanation": "法定労働時間は原則として1週40時間、1日8時間である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働契約不履行に備えて違約金や損害賠償予定を自由に定めてよい。",
+      "is_correct": "×",
+      "explanation": "違約金の定めや損害賠償額予定は禁止されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "休日労働を行わせた場合、その時間は「3割5分（35%）以上」の割増賃金を支払わなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！通常の残業（25%）より割増率が高いです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "連続運転時間を中断するための休憩等は、1回あたり「10分以上」で分割することができる。",
+      "is_correct": "〇",
+      "explanation": "正解！10分未満の停止は休憩とみなされません。合計30分以上が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1週間の運転時間が40時間を超える場合でも、貸切バスなどの乗務員については、労使協定があれば52週間（1年）のうち16週間までは「44時間」まで延長できる。",
+      "is_correct": "〇",
+      "explanation": "正解！繁忙期などの例外規定です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の1日の拘束時間は、原則として「13時間」以内とし、延長する場合でも最大「15時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！【2024年新基準】最大15時間です。14時間を超えることができるのは週3回までです。（※トラックと同じ数値になりました）",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の1か月拘束時間には、原則上限が定められている。",
+      "is_correct": "〇",
+      "explanation": "月間拘束時間も改善基準告示で制限される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "雇入れの日から6ヶ月間継続勤務し、全労働日の8割以上出勤した労働者に対しては、10労働日の年次有給休暇を与えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！労働者の権利です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働条件の明示は、原則として「書面」で行わなければならないが、労働者が希望した場合はファクシミリや電子メール等による明示も認められる。",
+      "is_correct": "〇",
+      "explanation": "正解！原則は書面交付ですが、労働者の希望があれば電子的方法も可能です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "国籍や信条を理由に、労働条件で差別してもよい。",
+      "is_correct": "×",
+      "explanation": "国籍、信条、社会的身分等による差別的取扱は禁止されている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の休息期間は、勤務終了後、次の始業時刻までに与える連続した時間であり、睡眠時間を含む生活時間を指す。",
+      "is_correct": "〇",
+      "explanation": "正解！会社に拘束されない自由な時間です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "貸切バスの運行において、夜間に長距離を運行する場合、配置基準に従って交替運転者を配置すれば、連続運転時間の制限（4時間）は適用されない。",
+      "is_correct": "×",
+      "explanation": "不正解！交替運転者がいても、1人の運転者が連続して運転できる時間は4時間までです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "予期し得ない事象（事故、故障、災害など）による遅延の場合、その対応に要した時間を拘束時間等の算入から「除外」することができる。",
+      "is_correct": "〇",
+      "explanation": "正解！単に超えてよいだけでなく、計算から除外できます。ただし、勤務終了後にその内容を記録（日報等）しておく必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働者を解雇しようとする場合、少なくとも「30日前」にその予告をしなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！予告しない場合は、30日分以上の平均賃金（解雇予告手当）を支払わなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "36協定の有効期間は、最長で「1年間」である。",
+      "is_correct": "〇",
+      "explanation": "正解！定期的な見直しが必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "事故や災害等の予期し得ない事象による遅延対応時間は、一定の条件下で拘束時間算入から除外できる。",
+      "is_correct": "〇",
+      "explanation": "例外的に除外が認められる仕組みがある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1週間の運転時間にも、平均して超えてはならない基準がある。",
+      "is_correct": "〇",
+      "explanation": "週運転時間の上限も定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日の運転時間は、所定の方法で平均して上限管理される。",
+      "is_correct": "〇",
+      "explanation": "2日平均等の考え方で上限が管理される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "連続運転時間を中断する休憩等は、一定時間以上で分割して取得できる。",
+      "is_correct": "〇",
+      "explanation": "1回当たりの最低時間を満たして分割取得できる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "退職時の証明書（使用期間、業務の種類、地位、賃金など）は、労働者が請求した場合のみ交付すればよい。",
+      "is_correct": "〇",
+      "explanation": "正解！退職者全員に配る必要はありません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "産後8週間を経過しない女性を就業させてはならないが、産後6週間を経過した女性が請求した場合は、医師が支障がないと認めた業務に就かせることができる。",
+      "is_correct": "〇",
+      "explanation": "正解！本人の希望と医師の許可があれば6週以降は就業可能です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働時間が6時間を超える場合は少なくとも45分、8時間を超える場合は少なくとも1時間の休憩時間を与えなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！労働基準法の休憩時間の原則です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働契約の不履行について違約金を定めたり、損害賠償額を予定する契約をしてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！「事故を起こしたら50万円払う」といった契約は無効です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "2人乗務時の拘束時間は、設備条件等に応じた基準があり、一律同じではない。",
+      "is_correct": "〇",
+      "explanation": "2人乗務でも一律の上限ではなく条件による差がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "健康診断の結果、異常の所見があると診断された場合、医師の意見を勘案し、必要があると認めるときは、就業場所の変更などの措置を講じなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！健康管理義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日の拘束時間が15時間を超えることができるのは、1週間について「3回」以内である。",
+      "is_correct": "×",
+      "explanation": "不正解！15時間を超えることは認められていません（最大15時間です）。14時間を超えるのが週3回までです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "平均賃金は、算定事由発生日以前「3ヶ月間」に支払われた賃金の総額を、その期間の総暦日数で除して計算する。",
+      "is_correct": "〇",
+      "explanation": "正解！解雇予告手当等の計算に使われます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "運転者の連続運転時間には上限があり、途中で休憩等により中断しなければならない。",
+      "is_correct": "〇",
+      "explanation": "連続運転時間上限と中断ルールが定められている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "貸切バスの運転者が、観光地で客待ちをしている間、バスを離れて自由に観光や食事ができる状態であれば、その時間は「休憩時間」とみなせる。",
+      "is_correct": "〇",
+      "explanation": "正解！指揮命令下から解放されていれば（労働から離れていれば）休憩扱いでOKです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "夜行高速バス等のワンマン運行では、実車走行距離に原則上限の目安がある。",
+      "is_correct": "〇",
+      "explanation": "長距離ワンマン運行には安全確保のための目安がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "隔日勤務（タクシー等）の1拘束時間は「21時間」以内が基本である。",
+      "is_correct": "〇",
+      "explanation": "正解！タクシー特有の勤務形態（2日分を1回で働く）のルールです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "36協定を締結していなくても、使用者は自由に法定時間外労働を命じることができる。",
+      "is_correct": "×",
+      "explanation": "時間外・休日労働には36協定の締結・届出が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "客待ち時間や荷待ち時間は、手待時間として「労働時間」に含まれる。",
+      "is_correct": "〇",
+      "explanation": "正解！使用者の指揮命令下にある時間は労働時間です。休憩時間ではありません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "休息期間は、勤務終了から次の始業までの継続時間として与える必要がある。",
+      "is_correct": "〇",
+      "explanation": "休息期間は連続した自由時間として確保される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "運転以外の業務時間は、拘束時間にも運転時間にも含まれない。",
+      "is_correct": "×",
+      "explanation": "運転以外でも指揮命令下にある時間は拘束時間に含まれる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "退職時の証明書は、労働者が請求しても交付する必要はない。",
+      "is_correct": "×",
+      "explanation": "請求があった場合は退職時証明を交付する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "改善基準告示違反があった場合、直ちに刑事罰（懲役や罰金）が科される。",
+      "is_correct": "×",
+      "explanation": "不正解！告示は行政指導の基準であり、違反しても直ちに刑罰はありません（行政処分の対象にはなります）。労働基準法違反（36協定なし残業など）は刑罰の対象です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者が、運転以外の業務（荷物の積み込みや洗車など）を行っている時間は、運転時間には含まれないが、拘束時間には含まれる。",
+      "is_correct": "〇",
+      "explanation": "正解！ハンドルを握っていない時間は「運転時間」ではありませんが、労働しているので「拘束時間」です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "法定休日労働の割増賃金率は、通常賃金と同額でよい。",
+      "is_correct": "×",
+      "explanation": "法定休日労働には少なくとも35%以上の割増賃金が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働者の国籍、信条または社会的身分を理由として、賃金、労働時間その他の労働条件について差別的取扱をしてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！均等待遇の原則です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "拘束時間とは、始業から終業までの時間で、休憩や仮眠等の取扱いも含めて定義される。",
+      "is_correct": "〇",
+      "explanation": "拘束時間は単純な運転時間とは異なる概念である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者が複数の会社で掛け持ち勤務をしている場合、労働時間は通算される。",
+      "is_correct": "〇",
+      "explanation": "正解！副業・兼業の場合、労働時間は会社が違っても合計されます。事業主はそれを把握する必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働条件の明示は、使用者が口頭で伝えるだけで常に足りる。",
+      "is_correct": "×",
+      "explanation": "重要な労働条件は原則として書面等で明示する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "フェリー乗船時間は、所定の要件（休息の機会の確保等）を満たす場合、原則として「休息期間」として取り扱われる。",
+      "is_correct": "〇",
+      "explanation": "正解！この時間は拘束時間から除外（減算）されます。ただし、フェリー下船後から勤務終了までの時間は拘束時間に含まれます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "拘束時間とは、始業時刻から終業時刻までの時間で、休憩時間を含まない。",
+      "is_correct": "×",
+      "explanation": "不正解！拘束時間は「労働時間 ＋ 休憩時間」の合計です。会社に拘束されている全時間（始業から終業まで）を指します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日（始業から24時間）の運転時間は、2日（特定の日とその前日）を平均して「9時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！2日平均で9時間以内です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "業務上負傷して休業中の労働者でも、いつでも自由に解雇できる。",
+      "is_correct": "×",
+      "explanation": "休業期間中とその後30日間は原則解雇できない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "客待ちや荷待ちなどの手待時間は、労働時間に含まれる。",
+      "is_correct": "〇",
+      "explanation": "使用者の指揮命令下にある時間は労働時間となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "拘束時間には、休憩時間や指揮命令下の待機時間などを一切含めない。",
+      "is_correct": "×",
+      "explanation": "拘束時間は始業から終業までの全体時間を基礎に考える。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "賃金は、現物支給や不定期払いだけでも法的に問題ない。",
+      "is_correct": "×",
+      "explanation": "賃金支払5原則に従う必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "賃金は、通貨で、直接労働者に、全額を、毎月1回以上、一定の期日を定めて支払わなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！賃金支払いの5原則です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "貸切バスなどで2人乗務（ダブルドライバー）の場合、1日の最大拘束時間は、車両設備の有無にかかわらず一律「19時間」までである。",
+      "is_correct": "×",
+      "explanation": "不正解！【2024年新基準】基本は19時間ですが、車両内に身体を伸ばして休息できる設備がある場合は最大「20時間」まで延長可能です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "フェリー乗船時間は、条件を満たしても休息期間として一切扱えない。",
+      "is_correct": "×",
+      "explanation": "要件を満たせば休息期間扱いできる場合がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の1年間の拘束時間は、原則として「3,300時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！【2024年新基準】原則は3,300時間以内です。労使協定がある場合でも最大3,400時間までしか延長できません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "法定休日は、労働者に全く与えなくてもよい。",
+      "is_correct": "×",
+      "explanation": "休日は毎週1回又は4週間を通じ4日以上与える必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "満18歳に満たない者（年少者）には、深夜業（午後10時〜午前5時）をさせてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！バスの車掌などでも同様です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "改善基準告示における「休日」とは、原則として「連続24時間」のことをいう。",
+      "is_correct": "×",
+      "explanation": "不正解！改善基準告示では「休息期間（9時間以上）＋24時間」の「連続33時間以上」を休日といいます。ただし、いかなる場合も30時間を下回ってはなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "法定時間外労働（週40時間超など）に対する割増賃金の率は、「2割5分（25%）以上」である。",
+      "is_correct": "〇",
+      "explanation": "正解！深夜労働（22時〜翌5時）も25%以上です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "労働時間が8時間を超えても、休憩時間は不要である。",
+      "is_correct": "×",
+      "explanation": "8時間を超える場合は少なくとも1時間の休憩が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "就業規則を作成・変更する場合、労働者の過半数代表者の「同意」を得なければならない。",
+      "is_correct": "×",
+      "explanation": "不正解！必要なのは「意見を聴くこと（意見書の添付）」であり、同意権はありません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "客待ち中でも、完全に労働から解放され自由利用できるなら休憩時間と評価され得る。",
+      "is_correct": "〇",
+      "explanation": "休憩時間か労働時間かは自由利用性で判断される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "連続運転時間は「4時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！4時間経過する直後に、合計30分以上の休憩等を確保しなければなりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "健康診断で異常所見が出ても、就業上の措置は不要である。",
+      "is_correct": "×",
+      "explanation": "必要に応じて就業場所変更等の措置が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "特定の日を起算日として2週間ごとに区切り、その期間内の運転時間が平均して週40時間以内であれば基準を満たす。",
+      "is_correct": "×",
+      "explanation": "不正解！「4週間平均」で計算します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "妊産婦が請求した場合でも、時間外・休日・深夜労働を命じることができる。",
+      "is_correct": "×",
+      "explanation": "請求があればこれらを命じてはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "高速バス（夜行）などの「ワンマン運行」の場合、1運行の実車走行距離は原則として「400km」が上限の目安とされている（条件により例外あり）。",
+      "is_correct": "〇",
+      "explanation": "正解！夜間ワンマンの長距離運行は過労リスクが高いため、厳しい制限があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の年間拘束時間には、改善基準告示上の上限が設けられている。",
+      "is_correct": "〇",
+      "explanation": "改善基準告示は年間拘束時間も定めている。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "副業先の労働時間は、本業の労働時間管理と無関係である。",
+      "is_correct": "×",
+      "explanation": "副業・兼業では労働時間通算が問題となる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の「1週間」の運転時間は、4週間を平均して「40時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！【重要】トラックは「44時間」ですが、バスは「40時間」です。ここが大きな違いです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "就業規則の作成・変更には、過半数代表者の意見聴取は不要である。",
+      "is_correct": "×",
+      "explanation": "就業規則には過半数代表者の意見聴取が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "18歳未満の年少者にも、自由に深夜業をさせてよい。",
+      "is_correct": "×",
+      "explanation": "年少者の深夜業は原則禁止される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "年次有給休暇の請求権に時効はなく、何年でも遡って請求できる。",
+      "is_correct": "×",
+      "explanation": "年次有給休暇の権利には時効がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "副業先の労働時間は、本業先の労働時間計算に全く影響しない。",
+      "is_correct": "×",
+      "explanation": "副業・兼業では通算管理が必要な場合がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "解雇予告は、解雇当日に伝えれば足りる。",
+      "is_correct": "×",
+      "explanation": "30日前予告又は解雇予告手当が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "改善基準告示に違反した場合は、常に直ちに刑事罰だけで処理される。",
+      "is_correct": "×",
+      "explanation": "行政指導や改善命令などを含めた対応があり、直ちに刑事罰だけとは限らない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "「一般貸切旅客自動車運送事業（貸切バス）」において、点呼の記録は法令により「3年間」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！一般的な事業用自動車は1年ですが、貸切バスは安全規制強化により3年保存です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "産後8週間以内の女性は、本人が希望すればどんな業務でも就業できる。",
+      "is_correct": "×",
+      "explanation": "産後8週間は原則就業させてはならない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "所定の労使協定があれば、一定の範囲で週運転時間の特例が認められる場合がある。",
+      "is_correct": "〇",
+      "explanation": "貸切バス等では特例運用が認められる場合がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "使用者は、労働者名簿、賃金台帳、雇入れに関する書類などを「5年間（当分の間は3年間）」保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！書類保存義務です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "1日の休息期間（勤務終了から次の始業までの時間）は、継続「11時間以上」与えるよう努めることを基本とし、いかなる場合も「9時間」を下回ってはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！【2024年新基準】以前の「継続8時間」から「継続9時間」に引き上げられました。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "妊産婦が請求した場合には、時間外労働、休日労働、深夜業をさせてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！母性保護の規定です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "年次有給休暇の請求権の時効は「2年」である。",
+      "is_correct": "〇",
+      "explanation": "正解！2年で消滅します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "バス運転者の1ヶ月の拘束時間は、原則として「281時間」を超えてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！【2024年新基準】トラック（284時間）やタクシー（288時間）とは数字が異なるので注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "深夜業従事者に特別な頻度の健康診断は不要である。",
+      "is_correct": "×",
+      "explanation": "深夜業従事者には6か月以内ごとの健康診断が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "時間外労働（残業）をさせるには、労働者の過半数代表者と書面による協定（36協定）を締結し、所轄労働基準監督署長に届け出なければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！これがなければ残業は違法です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "深夜業（午後10時〜午前5時）を含む業務に常時従事する労働者に対しては、健康診断を「6ヶ月以内ごとに1回」行わなければならない。",
+      "is_correct": "〇",
+      "explanation": "正解！特定業務従事者の健診です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "平均賃金は、その月の基本給だけで簡単に決めてよい。",
+      "is_correct": "×",
+      "explanation": "法定の計算方法に従う必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "法定時間外労働に対する割増賃金率は0%でも差し支えない。",
+      "is_correct": "×",
+      "explanation": "法定時間外労働には少なくとも25%以上の割増賃金が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "貸切バスの点呼記録は、一定期間保存しなければならない。",
+      "is_correct": "〇",
+      "explanation": "旅客運送事業法令上、点呼記録保存義務がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "36協定の有効期間は、制限なく何年でも定められる。",
+      "is_correct": "×",
+      "explanation": "一般に36協定の有効期間は最長1年で設定する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "6か月継続勤務しても、年次有給休暇制度は一切適用されない。",
+      "is_correct": "×",
+      "explanation": "一定要件を満たせば年次有給休暇が付与される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "改善基準告示における休日は、原則として連続24時間ではなく、数時間の自由時間があれば足りる。",
+      "is_correct": "×",
+      "explanation": "休日には所定の連続時間が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "労働基準法 & 改善基準告示",
+      "question": "36協定は、届出をしなくても口頭合意だけで効力を持つ。",
+      "is_correct": "×",
+      "explanation": "36協定には書面締結と届出が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "運転者が乗務中に強いストレスや悩み事を抱えている場合、注意力が散漫になり事故を起こすリスクが高まるため、運行管理者は点呼等で様子を観察する。",
+      "is_correct": "〇",
+      "explanation": "正解！心の健康状態（メンタルヘルス）の管理も重要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "大型バスのタイヤ点検において、ダブルタイヤ（後輪）の内側のタイヤは外側から見えにくいため、点検ハンマー等での打音検査や空気圧確認が重要である。",
+      "is_correct": "〇",
+      "explanation": "正解！内側のパンクや空気圧不足は発見が遅れがちです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "車内で不審物を見つけたら、まず中身を確認するために開封するのが基本である。",
+      "is_correct": "×",
+      "explanation": "不用意に触れず、人命安全を優先して通報・隔離対応を検討する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "アルコールは少量であれば、気付かない程度の反応遅れしか生じないため、プロの運転者であれば運転に支障はない。",
+      "is_correct": "×",
+      "explanation": "不正解！少量でも脳機能は低下し、判断力や反応速度が鈍ります。過信は禁物です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "事故現場で呼吸がない負傷者に対し、一次救命処置を考える必要はない。",
+      "is_correct": "×",
+      "explanation": "呼吸がない場合は胸骨圧迫など一次救命処置を考える。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "睡眠時無呼吸症候群（SAS）は、肥満の人に多いが、痩せている人でも顎が小さいなどの理由で発症することがある。",
+      "is_correct": "〇",
+      "explanation": "正解！体型に関わらず注意が必要です。漫然運転の原因になります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "路線バスの運行において、遅れが生じた場合でも、運行管理者は「遅れを取り戻せ」という指示をしてはならない。",
+      "is_correct": "〇",
+      "explanation": "正解！焦りは事故の元です。安全最優先の指示を出します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "乗客が着席していなくても、定時運行を優先してすぐ発進するのが適切である。",
+      "is_correct": "×",
+      "explanation": "安全確保が優先される。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "SASが疑われる運転者には、精密検査や治療の受診が重要である。",
+      "is_correct": "〇",
+      "explanation": "居眠り事故防止のため早期対応が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "下り坂では、燃料節約のために変速機をニュートラルにして走行しても、安全上の問題はない。",
+      "is_correct": "×",
+      "explanation": "危険です！エンジンブレーキが効かなくなり、制御不能になる恐れがあります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ベーパーロックは、タイヤの空気圧低下で起こる現象である。",
+      "is_correct": "×",
+      "explanation": "ベーパーロックはブレーキ液の沸騰により起こる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "バスジャック時は、犯人を刺激しても早く制圧しようとすることが最優先である。",
+      "is_correct": "×",
+      "explanation": "人命安全確保を最優先に、冷静に対応することが基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "速度が2倍になると、制動距離（ブレーキが効いてから止まるまでの距離）は「2倍」になる。",
+      "is_correct": "×",
+      "explanation": "不正解！物理法則により、制動距離は速度の「2乗」に比例します。速度が2倍になれば距離は「4倍」になります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "バスの運転席は位置が高いため、直前の低い位置にある障害物や子供が死角に入りやすい。",
+      "is_correct": "〇",
+      "explanation": "正解！アンダーミラーでの確認や、発進前の目視確認が重要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "動体視力（動くものを見る視力）は、年齢とともに低下し、また移動速度が速くなるほど低下する。",
+      "is_correct": "〇",
+      "explanation": "正解！高齢ドライバーや高速走行時は見落としのリスクが高まります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ハイドロプレーニングが起きたときは、急ブレーキや急ハンドルを避けるべきである。",
+      "is_correct": "〇",
+      "explanation": "急な操作は車両挙動をさらに不安定にする。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "車いすの乗客を乗せる際は、車いす用の固定装置を使用し、確実に固定する。",
+      "is_correct": "〇",
+      "explanation": "正解！急ブレーキ等で車いすが動かないよう固定は必須です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "雪道発進では、急発進よりも穏やかなアクセル操作が有効である。",
+      "is_correct": "〇",
+      "explanation": "空転防止のため繊細な操作が求められる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ベーパーロック現象とは、ブレーキ液（フルード）が沸騰して気泡が生じ、ブレーキ圧が伝わらなくなる現象である。",
+      "is_correct": "〇",
+      "explanation": "正解！ペダルがスカスカになりブレーキが効かなくなります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "スタンディングウェーブ現象は、タイヤの空気圧が低い状態で高速走行すると、タイヤが波打つように変形し、バーストする危険な現象である。",
+      "is_correct": "〇",
+      "explanation": "正解！予防策は、タイヤの空気圧を「適正値（メーカー指定値）」に保つこと、過積載を避けることなどが重要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "「追突事故」を防ぐには、「車間距離を十分にとる」ことと「わき見運転をしない」ことが基本である。",
+      "is_correct": "〇",
+      "explanation": "正解！追突事故は事故全体の中でも非常に高い割合を占めます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "交通事故現場で、負傷者が意識不明の場合、気道を確保し、呼吸がない場合は心臓マッサージ（胸骨圧迫）を行う。",
+      "is_correct": "〇",
+      "explanation": "正解！119番通報とAEDの手配を行った上で、救急隊に引き継ぐまで絶え間なく一次救命処置を行います。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "雨の降り始めは、路面の泥や油が浮き出して滑りやすくなっているため、特に注意が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！雨が強くなって洗い流される前が一番滑りやすいと言われています。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ASVの車線逸脱警報装置は、わき見や居眠りによる逸脱防止支援に役立つ。",
+      "is_correct": "〇",
+      "explanation": "先進安全技術は運転支援に有効である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ドライブレコーダーの映像は、事故時の証拠としてだけでなく、ヒヤリハット映像として運転者教育（危険予知トレーニング等）に活用できる。",
+      "is_correct": "〇",
+      "explanation": "正解！実際の映像を使うことで効果的な指導ができます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "運行遅れが出た場合、運行管理者が『遅れを取り戻せ』と速度超過を促すのは適切である。",
+      "is_correct": "×",
+      "explanation": "定時性より安全運行を優先すべきである。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "「内輪差」とは、右左折時に後輪が前輪よりも内側を通る現象であり、ホイールベース（前輪と後輪の間隔）が長い大型バスほど大きくなる。",
+      "is_correct": "〇",
+      "explanation": "正解！左折時の巻き込み事故や、脱輪に注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "高速道路のトンネル出口付近は、横風の影響を受けやすく、ハンドルを取られる危険性がある。",
+      "is_correct": "〇",
+      "explanation": "正解！山間部や橋の上、防音壁の切れ目なども同様です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ABS（アンチロック・ブレーキ・システム）が作動したときは、ハンドル操作に専念するため、ブレーキペダルから足を離すのが良い。",
+      "is_correct": "×",
+      "explanation": "不正解！ABS作動時は、ブレーキペダルを「強く踏み続ける」ことが重要です。足を離すと止まりません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "指差呼称は、誤認や見落とし防止にはほとんど効果がない。",
+      "is_correct": "×",
+      "explanation": "指差呼称は確認意識を高め、誤認や見落とし防止に有効である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "車いす乗客は、固定装置を使わずともブレーキを掛けていれば十分である。",
+      "is_correct": "×",
+      "explanation": "固定装置等で確実に固定する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "エア・ブレーキ（空気ブレーキ）は、ブレーキペダルの踏み加減に対する反応が良く、効きが強力なため、ラフに扱うと急ブレーキになりやすい。",
+      "is_correct": "〇",
+      "explanation": "正解！強力な制動力を持つため、乗客の転倒を防ぐためにも、より繊細で滑らかな操作が求められます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ABS作動時は、ブレーキから足を離してハンドル操作だけに集中するのが基本である。",
+      "is_correct": "×",
+      "explanation": "ABS作動時もブレーキは踏み続ける。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "大地震時は、急ブレーキではなく周囲に注意しながら緩やかに減速して停止する。",
+      "is_correct": "〇",
+      "explanation": "二次事故防止のため落ち着いた停止が重要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "濃霧時は、常にハイビームにするのが最も見やすい。",
+      "is_correct": "×",
+      "explanation": "濃霧時はハイビームで見えにくくなることがある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ABS作動時は、すぐにブレーキペダルから足を離すのが基本である。",
+      "is_correct": "×",
+      "explanation": "ABS作動時も通常はブレーキを踏み続ける。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "運転者の視野は、速度が速くなればなるほど広くなり、遠くの状況を把握しやすくなる。",
+      "is_correct": "×",
+      "explanation": "不正解！速度が上がると一点を注視するため、視野は「狭く」なります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "雪道発進では、空転させるほど強くアクセルを踏んだ方が発進しやすい。",
+      "is_correct": "×",
+      "explanation": "空転を避けた穏やかな操作が基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "雪道での発進時は、エンジンの回転数を上げて急発進するとタイヤがグリップしやすい。",
+      "is_correct": "×",
+      "explanation": "不正解！急発進は空転（スリップ）の原因です。2速発進などでじわりと発進します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "長い下り坂でフットブレーキを使い続けると、ブレーキドラムやディスクが過熱し、摩擦力が低下して効きが悪くなる現象を「フェード現象」という。",
+      "is_correct": "〇",
+      "explanation": "正解！これを防ぐために、エンジンブレーキや排気ブレーキを併用します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "追突防止の基本は、十分な車間距離の確保とわき見防止である。",
+      "is_correct": "〇",
+      "explanation": "基本動作の徹底が追突防止に直結する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ブラックアイスバーンは濡れた路面に見えやすく、油断しやすい。",
+      "is_correct": "〇",
+      "explanation": "冬道事故防止の重要論点である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "アルコール検知器を使用する際、マウスウォッシュや栄養ドリンクなどの摂取直後は、アルコール反応が出ることがある。",
+      "is_correct": "〇",
+      "explanation": "正解！微量のエタノールが含まれている場合があるため、摂取直後の測定は避けるか、うがいをしてから測定します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "「認知・判断・操作」のプロセスのうち、ベテラン運転者は「認知（危険の発見）」が早いため、事故を回避しやすい。",
+      "is_correct": "〇",
+      "explanation": "正解！危険予知能力（Kyt）が高いことが安全運転の鍵です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "冬道において、ブラックアイスバーン（黒い凍結路面）は、濡れているだけのアスファルトに見えるため、油断しやすく危険である。",
+      "is_correct": "〇",
+      "explanation": "正解！夜間や早朝の橋の上などは特に注意が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ダブルタイヤの内側は見えにくいため、打音や空気圧確認が重要である。",
+      "is_correct": "〇",
+      "explanation": "見えにくい箇所ほど丁寧な点検が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "クリープ現象は、AT車においてブレーキを離すと車が勝手に動き出す現象であり、渋滞時の追突事故の原因にもなる。",
+      "is_correct": "〇",
+      "explanation": "正解！停止中はしっかりブレーキを踏んでおく必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "路線バスの発進時は、乗客の着席や手すり保持を確認する必要はない。",
+      "is_correct": "×",
+      "explanation": "発進時は乗客の安全状態に配慮する必要がある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "長い下り坂では、ニュートラル走行にして燃費を優先するのが安全である。",
+      "is_correct": "×",
+      "explanation": "エンジンブレーキを活用し、ニュートラル走行は避けるべきである。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "指差呼称（指差し確認）は、漫然となりがちな確認作業において、意識レベルを高め、誤認や見落としを防ぐ効果がある。",
+      "is_correct": "〇",
+      "explanation": "正解！「右よし！左よし！」と声に出すことは非常に有効です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "夜間の蒸発現象は起こらず、対向車ライトの影響で見えにくくなることはない。",
+      "is_correct": "×",
+      "explanation": "夜間は対向車ライト等で歩行者が見えにくくなる蒸発現象に注意が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "市販の風邪薬や鼻炎薬には、抗ヒスタミン剤などの眠気を催す成分が含まれていることがあるため、乗務前の服用には注意が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！「眠くならない」と記載された薬を選ぶか、医師に相談する必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "自動ブレーキ装置がある車両なら、車間距離を詰めても問題ない。",
+      "is_correct": "×",
+      "explanation": "先進安全装置を過信せず十分な車間距離が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "動体視力は、一般に年齢とともに低下しやすい。",
+      "is_correct": "〇",
+      "explanation": "高齢化と視認能力低下は安全運転上の重要論点である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ASV（先進安全自動車）の装置の一つである「車線逸脱警報装置」は、居眠りやわき見などで車線をはみ出しそうになったときに警報を鳴らす。",
+      "is_correct": "〇",
+      "explanation": "正解！ふらつき運転の防止に役立ちます。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "市販薬なら、眠気などの副作用があっても乗務前に気にせず服用してよい。",
+      "is_correct": "×",
+      "explanation": "市販薬でも副作用がある場合は乗務前服用に注意が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "雨の降り始めは、路面の油分や泥が浮いて滑りやすくなる。",
+      "is_correct": "〇",
+      "explanation": "初期降雨時は特に滑走事故に注意が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "貸切バスでは、高速道路に入る前などにシートベルト着用案内を行うことが有効である。",
+      "is_correct": "〇",
+      "explanation": "車内安全確保のための実務対応である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "SAS（睡眠時無呼吸症候群）の疑いがある運転者には、精密検査（PSG検査）を受けさせ、適切な治療（CPAP等）を行えば乗務を継続できる場合が多い。",
+      "is_correct": "〇",
+      "explanation": "正解！治療により症状が改善すれば、医師の判断のもとで通常通り乗務が可能です。早期発見と治療継続が重要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "衝突被害軽減ブレーキ（自動ブレーキ）が付いている最新車両であれば、追突事故は100%防げるため、車間距離を詰めても問題ない。",
+      "is_correct": "×",
+      "explanation": "不正解！装置には限界があり、路面状況や速度によっては作動しないこともあります。過信してはいけません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "車内で不審物を発見した場合、乗務員は直ちに中身を確認し、危険物であれば車外に放り出す。",
+      "is_correct": "×",
+      "explanation": "危険です！不審物には触れず、乗客を避難させ、警察に通報するのが鉄則です。爆発物の可能性があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "大型バスは運転席位置が高く、直前や側方の低い位置に死角が生じやすい。",
+      "is_correct": "〇",
+      "explanation": "発進・右左折時の巻き込み防止に重要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "大型バスはホイールベースが長いため、右左折時の内輪差が大きくなりやすい。",
+      "is_correct": "〇",
+      "explanation": "後輪軌跡に対する注意が必要である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "濃霧で視界が悪いときは、前照灯（ヘッドライト）を上向き（ハイビーム）にする。",
+      "is_correct": "×",
+      "explanation": "不正解！光が霧に乱反射して真っ白になり、かえって見えなくなります。下向き（ロービーム）にします。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "バスの発進時、急発進をすると車内の乗客が後方に転倒するおそれがあるため、乗客が着席したことや手すりにつかまったことを確認してから発進する。",
+      "is_correct": "〇",
+      "explanation": "正解！「車内事故」防止はバス運行管理の最重要課題の一つです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "タクシーで行先が近距離というだけなら、正当な乗車拒否理由にはならない。",
+      "is_correct": "〇",
+      "explanation": "近距離を理由とする拒否は適切でない。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "適性診断（一般診断）は、運転者の癖を矯正するためのものであり、本人の性格や運転態度は変えられないため、指導しても無駄である。",
+      "is_correct": "×",
+      "explanation": "不正解！自分の癖を自覚させ、意識して行動を変えるよう指導することに意味があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "バスジャックが発生した場合、乗務員は犯人を刺激しないよう冷静に対応し、何よりも「人命の安全確保」を最優先に行動する。",
+      "is_correct": "〇",
+      "explanation": "正解！犯人の説得や逮捕よりも、乗客の命を守ることが最優先です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "カーブを走行する際に働く遠心力は、速度の2乗に比例し、カーブの半径に反比例する。",
+      "is_correct": "〇",
+      "explanation": "正解！スピードが出るほど、カーブがきついほど、外に飛び出す力は強くなります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "少量の飲酒なら、プロ運転者であれば運転に支障はない。",
+      "is_correct": "×",
+      "explanation": "少量でも判断力や反応速度に影響しうる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "事故防止には、危険の認知、適切な判断、確実な操作の連携が重要である。",
+      "is_correct": "〇",
+      "explanation": "認知・判断・操作のどれが欠けても事故リスクが高まる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "「暗順応」とは、明るい所から暗い所に入ったとき、目が慣れて徐々に見えるようになる現象で、これには時間がかかる。",
+      "is_correct": "〇",
+      "explanation": "正解！トンネルに入った直後などは見えにくくなるため、速度を落とす必要があります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "AT車のクリープ現象は、渋滞時や停車時の追突・接触事故原因になり得る。",
+      "is_correct": "〇",
+      "explanation": "ブレーキ保持が甘いと不意の前進が起こる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "貸切バスにおいて、乗客がシートベルトを着用していない場合、高速道路に入る前に乗務員が着用を促すアナウンスを行う。",
+      "is_correct": "〇",
+      "explanation": "正解！被害軽減のため、着用の徹底が必要です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "大地震が発生した場合、急ブレーキをかけず緩やかに減速して左側に停車し、エンジンを止めた後、キーを付けて（または車内の分かりやすい場所に置いて）避難する。",
+      "is_correct": "〇",
+      "explanation": "正解！後で緊急車両が移動させる可能性があるため、キーは持ち去りません。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "トンネル火災で車両を置いて避難する際は、常にキーを持って避難するのが原則である。",
+      "is_correct": "×",
+      "explanation": "避難時は車両移動対応を考慮し、キーを付ける又はわかる場所に残すのが基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "運転者が「自分は運転がうまい」と過信している場合、慎重さを欠き、リスクを軽視した運転になりやすいため、指導が必要である。",
+      "is_correct": "〇",
+      "explanation": "正解！事故を起こしやすい性格特性の一つです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "速度が上がるほど視野は広がり、周辺状況を把握しやすくなる。",
+      "is_correct": "×",
+      "explanation": "速度上昇により視野は狭まりやすい。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "自分の運転技術への過信は、危険予測不足や無理な運転につながりやすい。",
+      "is_correct": "〇",
+      "explanation": "過信はヒューマンエラーの要因である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "長い下り坂でブレーキを使い続けても、フェード現象は起こらない。",
+      "is_correct": "×",
+      "explanation": "長い下り坂ではフェード現象が起こることがある。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "乗客が高齢者の場合、バスが完全に停車する前に席を立つことがあるため、マイク等で「バスが止まるまで席を立たないでください」と注意喚起することは有効である。",
+      "is_correct": "〇",
+      "explanation": "正解！転倒事故防止のための基本的なアナウンスです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "停止距離は、制動距離だけを考えれば足り、空走距離は含めない。",
+      "is_correct": "×",
+      "explanation": "停止距離は空走距離と制動距離の合計で考える。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ドライブレコーダー映像は、事故後の証拠にはなっても教育には使えない。",
+      "is_correct": "×",
+      "explanation": "ヒヤリハット教育などにも活用できる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "夜間、対向車のライトと自車のライトが重なる部分で、横断中の歩行者などが見えなくなる現象を「蒸発現象（グレア現象）」という。",
+      "is_correct": "×",
+      "explanation": "不正解！問題文は「蒸発現象（エバポレーション現象）」の説明です。一方、「グレア現象」はライトの光が眩しくて見えなくなる現象を指します。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "トンネル内で火災が発生した場合、車両を置いて避難するときは、延焼を防ぐため窓を閉め、キーを持って避難する。",
+      "is_correct": "×",
+      "explanation": "不正解！窓を閉めるのは正解ですが、キーは「付けたまま（または残して）」避難します。移動可能にするためです。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "スタンディングウェーブ現象は、空気圧不足や高速走行などが要因となることがある。",
+      "is_correct": "〇",
+      "explanation": "タイヤの異常変形から重大事故につながりうる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "夜間は原則ハイビームを活用し、対向車や先行車がいるときなどにロービームへ切り替える。",
+      "is_correct": "〇",
+      "explanation": "夜間視認性向上の基本である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ふんわりアクセルは、燃費向上だけでなく車内事故防止にも役立つ。",
+      "is_correct": "〇",
+      "explanation": "急加速防止は旅客の安全にもつながる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "ハイドロプレーニング現象が起きたときは、ハンドルをしっかり握り、アクセルを戻して自然に減速するのを待つ。",
+      "is_correct": "〇",
+      "explanation": "正解！急ブレーキや急ハンドルはスピンの原因になります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "自動車の停止距離は、運転者が危険を感じてブレーキを踏み、ブレーキが効き始めるまでの「空走距離」と、ブレーキが効き始めてから停止するまでの「制動距離」の和である。",
+      "is_correct": "〇",
+      "explanation": "正解！停止距離＝空走距離＋制動距離です。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "高齢乗客には、停車まで着席を促す車内案内が転倒防止に有効である。",
+      "is_correct": "〇",
+      "explanation": "高齢者事故防止に有効な実務対応である。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "タクシーに乗客を乗せる際、行き先が近距離であることを理由に乗車を拒否することは正当な行為である。",
+      "is_correct": "×",
+      "explanation": "不正解！「乗車拒否」として法律違反になります。距離に関係なくお乗せします。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "暗順応は瞬時に完了するため、明るい場所から暗い場所へ移ってもすぐに十分見える。",
+      "is_correct": "×",
+      "explanation": "暗順応には時間がかかる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "カーブで働く遠心力は、速度に無関係で一定である。",
+      "is_correct": "×",
+      "explanation": "遠心力は速度の二乗に比例し、カーブ半径に反比例する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "エコドライブ（省燃費運転）における「ふんわりアクセル」は、燃費向上だけでなく、車内事故防止（転倒防止）にも効果がある。",
+      "is_correct": "〇",
+      "explanation": "正解！急発進を避けることは、乗客の安全と燃費の両方にメリットがあります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "マウスウォッシュや栄養ドリンク摂取直後は、アルコール検知器が反応することがある。",
+      "is_correct": "〇",
+      "explanation": "誤反応防止のため適切な再確認が必要になる。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "夜間走行時は、原則として前照灯を上向き（ハイビーム）にし、対向車や先行車がいる場合のみ下向き（ロービーム）にする。",
+      "is_correct": "〇",
+      "explanation": "正解！これが道路交通法の原則です。歩行者の早期発見につながります。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "強いストレスや悩み事は、注意力低下や判断ミスにつながりやすい。",
+      "is_correct": "〇",
+      "explanation": "心理状態も安全運転に影響する。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "トンネル出口や橋の上では、横風の影響を特に考える必要はない。",
+      "is_correct": "×",
+      "explanation": "トンネル出口や橋の上では横風の影響を受けやすい。",
+      "image_path": "null"
+    },
+    {
+      "app_id": "ryokyaku",
+      "category": "実務上の知識及び能力",
+      "question": "速度が上がると制動距離はおおむね速度に比例して伸びる。",
+      "is_correct": "×",
+      "explanation": "制動距離は一般に速度の二乗に比例して増える。",
+      "image_path": "null"
+    }
+  ]
+}

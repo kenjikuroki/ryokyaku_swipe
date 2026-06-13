@@ -35,10 +35,10 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get sisterAppTitle => '４択問題アプリリリース！';
+  String get sisterAppTitle => '公式例題ベースの問題集アプリが登場！';
 
   @override
-  String get sisterAppSubTitle => '空き時間にサクサク解ける\n姉妹アプリはこちら';
+  String get sisterAppSubTitle => '「サクサク過去問」';
 
   @override
   String get premiumUpgrade => 'プレミアムアップグレード';
@@ -129,4 +129,46 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get backToHome => 'ホームに戻る';
+
+  @override
+  String get sisterAppDialogTitle => '関連アプリもチェック！';
+
+  @override
+  String get sisterAppDialogBody => '別の資格試験対策アプリも公開中です。';
+
+  @override
+  String get open => '開く';
+
+  @override
+  String get back => '戻る';
+
+  @override
+  String get noData => '問題データがまだありません';
+
+  @override
+  String get selectCategory => 'カテゴリーを選択';
+
+  @override
+  String get purchase => '購入する';
+
+  @override
+  String get restorePurchase => '購入を復元する';
+
+  @override
+  String get featureSequentialTitle => '「連続」モードの解放';
+
+  @override
+  String get featureSequentialDesc => '1問目から順番にすべての問題を解くことができます。';
+
+  @override
+  String get featureNoAdsTitle => '広告を完全に非表示';
+
+  @override
+  String get featureNoAdsDesc => 'アプリ内のあらゆる広告を非表示にします。';
+
+  @override
+  String get premiumCardTitle => 'プレミアムプランに\nアップグレード';
+
+  @override
+  String get premiumCardSubtitle => '広告を非表示にして集中！';
 }
